@@ -1,0 +1,41 @@
+Title: About Us
+----
+Footerindex: 1
+----
+Subtitle:
+
+We are the folks that created Zammad.
+
+If you are visiting Berlin, drop by! (No buses please.)
+----
+Text:
+
+## Why we made Zammad
+
+More than 7 million people use Zammad to create, send, and track support tickets. Wether you're self-employed, you manage projects for clients, or you work for a Fortune 500 company, Zammad has features and integrations that will suite your email marketing needs.
+----
+Organisation:
+
+title: The Zammad organisation
+
+branches:
+  -
+    body: Zammad Foundation
+    text: "a non-profit (NGO) organization that owns the Zammad project. This is important because it provides the legal liberty needed for an open source project. Visit the website at (link: zammad-foundation.org)"
+  - 
+    body: Zammad Community
+    text: "our community website where you can download Zammad and contribute. It is the heart and soul of Zammad. Visit the website at (link: zammad.org)"
+  -
+    body: Zammad.com
+    text: "the commercially operating website where you can purchase services for Zammad and rent a rent a hosted version of Zammad. (link: zammad.com)"
+
+----
+Team:
+
+## Our Team
+_We launched Zammad for you._
+----
+Join:
+
+## Join us!
+Right now, we have no open positions at Zammad. But we are always curious and open for fresh talent. Write to jobs@zammad.org and include your CV and some samples of work.

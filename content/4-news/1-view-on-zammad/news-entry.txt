@@ -1,0 +1,15 @@
+Title: New Gmail "View on Zammad" Button
+----
+Author: hp
+----
+Date: 26.11.2014
+----
+Categories: news, features
+----
+Text:
+
+If you're a Gmail user, you'll appreciate a new shortcut we've added to your inbox. Now when you receive a Zammad notification email, you'll see a small "View on Zammad" button on the right of the subject line. Click that button and you'll be taken directly to the Zammad ticket, without having to open the email.
+
+(image: gmail.png class: full)
+
+We hope this small addition saves you a few clicks a day and makes your life with Zammad faster and easier!

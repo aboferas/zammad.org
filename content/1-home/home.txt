@@ -1,0 +1,46 @@
+Title: Home & Downlod
+----
+Header: Welcome to the Zammad Community
+----
+Subtitle: 
+
+Zammad is a web-based, open source user support/ticketing solution.
+
+Download and install it on your own servers. For free.
+----
+Downloadtitle: Download Zammad
+----
+Downloadsubtitle: Please select your web server operating system
+----
+Downloads:
+
+-
+  platform: "Debian"
+  version: "V 7.2-9.4.1"
+  download: /
+-
+  platform: "CentOS"
+  version: "V 7.2-9.4.1"
+  download: /
+-
+  platform: "Docker"
+  version: "V 7.2-9.4.1"
+  download: /
+-
+  platform: "SaaS"
+  version: "V 7.2-9.4.1 / (link: / text: options)"
+  download: /
+----
+Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: www.zammad.com text: zammad.com)
+----
+Section1:
+(image: hands-on.svg)
+_Hands-on Area_
+###Join our community and help making Zammad better by smashing bugs or building features.
+(link: participate class: btn btn--primary text: Get things done)
+----
+Section2:
+(image: serviced-area.svg)
+_Serviced Area_
+### Would you rather have  cosy set-up that's ready to use and frequently updated?
+(link: participate class: btn btn--primary text: This way please)

@@ -1,0 +1,17 @@
+Title: Setup
+----
+
+Text:
+
+_This will teach you how to use Zammad_
+Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do amet laboris in ex enim sed nulla mollit aliquip commodo amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo [est exercitation](#) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint [dolore](#) giat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.
+
+```bash
+zammad@shell> rake assets:precompile
+zammad@shell> puma -p 3000 # application web server
+zammad@shell> script/websocket-server.rb start # non blocking websocket server
+zammad@shell> script/scheduler.rb start # generate overviews on demand, just send changed data to browser
+```
+
+### Feature #345
+Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do [amet laboris](#) in ex enim sed nulla mollit aliquip commodo.

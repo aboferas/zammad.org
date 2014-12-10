@@ -1,0 +1,12 @@
+Name: Felix Niklas
+----
+DisplayName: Felix
+----
+Occupation: Technical Consultant
+----
+Quote:
+
+Zammad is a big deal because 
+it's in an market without 
+an elegant and powerful open 
+source alternative.

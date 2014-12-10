@@ -1,0 +1,11 @@
+Title: Documentation
+----
+Footerindex: 2
+----
+Subtitle: 
+
+The official Zammad knowledge base.
+----
+Text:
+
+

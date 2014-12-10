@@ -1,0 +1,17 @@
+Title: Zammad Community
+
+----
+
+Author: Zammad GmbH
+
+----
+
+Description: The Zammad Ticket System Community Page
+
+----
+
+Keywords: Documentation
+
+----
+
+Copyright: © (date: Year) (link: http://zammad.com text: Zammad GmbH)

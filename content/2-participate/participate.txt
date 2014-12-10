@@ -1,0 +1,33 @@
+Title: Be part of it!
+----
+Header: Let's make Zammad better
+----
+Subtitle: 
+
+Develop features, smash some bugs or help us to translate Zammad to
+
+Klingon or Berbice Dutch Creole. Let's go:
+----
+Source:
+
+## Download the source code from Github:
+(link: / text: Zammad on Github class: btn btn--primary btn--github)
+----
+Text:
+
+****
+
+## Create features or support Zammad by fixing bugs
+_Registered members only._
+
+Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do amet laboris in ex enim sed nulla mollit aliquip commodo amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo (link: # text: est exercitation) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint (link: # text: dolore) fugiat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.
+
+****
+
+## Translation team
+_Looking for Swedish and Finnish folks._
+
+(image: sverige.png class: right caption: Vintage postcard of Sweden cc <a href="#">ragnarlothbrok</a>)
+Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do (link: # text: amet laboris) in ex enim sed nulla mollit aliquip commodo.
+
+amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo (link: # text: est exercitation) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint (link: # text: dolore) fugiat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.

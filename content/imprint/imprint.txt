@@ -1,0 +1,34 @@
+Title: Contact
+----
+Footerindex: 3
+----
+Header: Imprint
+----
+Subtitle:
+
+Squint your eyes and discover something.
+----
+Text:
+
+_Zammad is a service provided by_
+##(link: www.zammad-foundation.org text: Zammad Foundation)
+_Berlin, Germany_
+
+_Post Adress_
+
+Marienstraße 11
+10117 Berlin
+Germany
+T +49 234 192385
+<info@zammad.org>
+
+_Technical Development_
+#### Felix Klas
+<felix@zammad.org>
+
+_Responsible Editor of this website_
+#### Martin Edenhofer
+<martin@zammad.org>
+
+_Legal Note_
+#### No developers were harmed during<br> the production of Zammad

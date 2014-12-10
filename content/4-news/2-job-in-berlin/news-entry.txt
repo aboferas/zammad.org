@@ -1,0 +1,19 @@
+Title: Join our Berlin Zammad team!
+----
+Author: hp
+----
+Date: 21.11.2014
+----
+Categories: news, jobs
+----
+Text:
+
+(image: berlin.jpg class: left caption: It's Berlin, after all<br> cc <a href="http://www.go-nagano.net/modules/contents07/index.php?id=1&mode=disdetailsisetu&cityid=108&junleid=6&indexid=7&kubuncode=3">waltergorgol</a>)
+
+We are looking for folks passionate for open source and Berlin. Please share this post with people you know.
+
+### Front end developer
+You're a proven HTML/CSS/JS expert with design affinity and a sense for details? [Apply today](#) and start your job within weeks.
+
+### Phone/VOIP expert
+We're getting serious about the whole Zammad phone thing and we need solid know-how. [Apply today](#) and be part of the next Zammad chapter.

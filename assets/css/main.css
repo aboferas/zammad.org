@@ -155,8 +155,7 @@ nav a:hover {
  * Main
  */
 
-main,
-main.wrapper {
+main {
   max-width: 60em;
   margin: 0 auto;
   padding: 0;
@@ -173,7 +172,7 @@ section {
 
 .wrapper {
   max-width: 1100px;
-  padding: 0 2em;
+  padding: 0 3em;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -1018,6 +1017,12 @@ input,
   border-radius: 3px;
   box-sizing: border-box;
   vertical-align: middle;
+}
+
+input {
+  -webkit-appearance: none;  
+     -moz-appearance: none;  
+      -ms-appearance: none;  
 }
 
 input,

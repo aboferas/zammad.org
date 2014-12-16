@@ -29,11 +29,16 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+c::set('debug', true);
+c::set('timezone', 'Europe/Berlin');
+
 c::set('routes', array(
   array(
     'pattern' => 'documentation',
     'action'  => function() {
-      return go('documentation/intro/install');
+      $first_category = page('documentation')->children()->visible()->first();
+      $first_entry = $first_category->children()->visible()->first();
+      return go($first_entry->url());
     }
   )
 ));

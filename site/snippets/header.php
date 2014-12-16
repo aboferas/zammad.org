@@ -10,7 +10,9 @@
 <meta name="keywords" content="<?= $site->keywords()->html() ?>">
 
 <?= css('assets/css/main.css') ?>
-<?= css('assets/css/highlight.css') ?>
+<?= css('assets/css/prism.css') ?>
+
+<?= html::shiv() ?>
 
 <header class="clearfix" role="banner">
   <div class="wrapper">
@@ -20,3 +22,8 @@
     <? snippet('menu') ?>
   </div>
 </header>
+<!--[if lte IE 9]>
+<div class="browserupdate">
+  You are using an obsolete browser which can harm your experience and cause security trouble. Please <a href="http://browsehappy.com/" target="_blank">update your browser!</a>
+</div>
+<![endif]-->

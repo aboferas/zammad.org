@@ -5,7 +5,7 @@ Text:
 
 1. Install Zammad on your system
 
-```
+```bash
   root@shell> cd /opt/
   root@shell> tar -xzf zammad-1.0.1.tar.gz
   root@shell> useradd zammad
@@ -14,7 +14,7 @@ Text:
 
 2. Install all dependencies
 
-```
+```bash
   zammad@shell> cd zammad
   zammad@shell> gem install rails 
   zammad@shell> vi Gemfile # enable libv8, execjs and therubyracer if needed!
@@ -23,14 +23,14 @@ Text:
 
 3. Configure your databases
 
-```
+```bash
   zammad@shell> cp config/database.yml.dist config/database.yml
   zammad@shell> vi config/database.yml
 ```
 
 4. Initialize your database
 
-```
+```bash
   zammad@shell> export RAILS_ENV=production
   zammad@shell> rake db:create
   zammad@shell> rake db:migrate
@@ -39,7 +39,7 @@ Text:
 
 5. Change directory to zammad (if needed) and start the web server:
 
-```
+```bash
   zammad@shell> rake assets:precompile
   zammad@shell> puma -p 3000 # application web server
   zammad@shell> script/websocket-server.rb start # non blocking websocket server

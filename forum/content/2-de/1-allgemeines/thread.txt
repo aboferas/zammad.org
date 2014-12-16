@@ -1,0 +1,5 @@
+Title: Allgemeines
+
+----
+
+Text: Allgemeine Fragen zu Zammad

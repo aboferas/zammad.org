@@ -1,1 +1,5 @@
-forum
+forum/import
+forum/site/accounts
+forum/site/config/config.php
+forum/content/index.sqlite
+forum/thumbs

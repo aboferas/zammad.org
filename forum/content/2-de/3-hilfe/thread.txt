@@ -1,0 +1,5 @@
+Title: Hilfe
+
+----
+
+Text: Hilfe zu Zammad Problemen

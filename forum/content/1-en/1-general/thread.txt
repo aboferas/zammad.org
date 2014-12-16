@@ -1,0 +1,5 @@
+Title: General
+
+----
+
+Text: General questions regarding Zammad

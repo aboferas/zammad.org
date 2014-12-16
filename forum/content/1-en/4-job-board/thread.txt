@@ -1,0 +1,5 @@
+Title: Job board
+
+----
+
+Text: Zammad-related job offers

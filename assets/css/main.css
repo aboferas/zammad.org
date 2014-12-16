@@ -157,9 +157,14 @@ nav a:hover {
 
 main,
 main.wrapper {
-  max-width: 50em;
+  max-width: 60em;
   margin: 0 auto;
   padding: 0;
+}
+
+.participate main,
+.news main {
+  max-width: 50em;
 }
 
 section {
@@ -424,9 +429,12 @@ article h3 {
 article ol,
 article ul,
 article p,
-article pre,
 main p {
   margin-bottom: 1em;
+}
+
+article pre[class*="language-"] {
+  margin: 0 0 1.5em;
 }
 
 .post-author {

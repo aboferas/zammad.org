@@ -9,8 +9,8 @@
 <meta name="description" content="<?= $site->description()->html() ?>">
 <meta name="keywords" content="<?= $site->keywords()->html() ?>">
 
-<?= css('assets/css/main.css') ?>
 <?= css('assets/css/prism.css') ?>
+<?= css('assets/css/main.css') ?>
 
 <?= html::shiv() ?>
 

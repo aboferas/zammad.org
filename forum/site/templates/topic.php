@@ -3,6 +3,7 @@
 
 <div class="wrapper">
   <main>
+    <? snippet('notification') ?>
     <? snippet('breadcrumb') ?>
     <div class="topic topic-details<? e($page->isSolved(), ' topic-is-solved') ?>">
       <header class="topic-header clearfix">

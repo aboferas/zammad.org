@@ -31,7 +31,7 @@ Downloads:
   version: "V 7.2-9.4.1 / (link: / text: options)"
   download: /
 ----
-Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: www.zammad.com text: zammad.com)
+Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: http://zammad.com text: zammad.com)
 ----
 Section1:
 (image: hands-on.svg)

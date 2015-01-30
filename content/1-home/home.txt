@@ -15,18 +15,22 @@ Downloadsubtitle: Please select your web server operating system
 Downloads:
 
 -
+  intro: "Zammad as"
   platform: "Source"
   version: "V 1.0.1"
   download: /
 -
+  intro: "Zammad for"
   platform: "CentOS"
   version: "V 1.0.1"
   download: /
 -
+  intro: "Zammad for"
   platform: "Docker"
   version: "V 1.0.1"
   download: https://registry.hub.docker.com/o/zammad/zammad-docker/
 -
+  intro: "Zammad as"
   platform: "Appliance"
   version: "V 1.0.1/1.0.1 / (link: / text: options)"
   download: /

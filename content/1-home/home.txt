@@ -15,23 +15,27 @@ Downloadsubtitle: Please select your web server operating system
 Downloads:
 
 -
-  platform: "Debian"
-  version: "V 7.2-9.4.1"
+  intro: "Zammad as"
+  platform: "Source"
+  version: "V 1.0.1"
   download: /
 -
+  intro: "Zammad for"
   platform: "CentOS"
-  version: "V 7.2-9.4.1"
+  version: "V 1.0.1"
   download: /
 -
+  intro: "Zammad for"
   platform: "Docker"
-  version: "V 7.2-9.4.1"
-  download: /
+  version: "V 1.0.1"
+  download: https://registry.hub.docker.com/o/zammad/zammad-docker/
 -
-  platform: "SaaS"
-  version: "V 7.2-9.4.1 / (link: / text: options)"
+  intro: "Zammad as"
+  platform: "Appliance"
+  version: "V 1.0.1/1.0.1 / (link: / text: options)"
   download: /
 ----
-Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: www.zammad.com text: zammad.com)
+Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: http://zammad.com text: zammad.com)
 ----
 Section1:
 (image: hands-on.svg)

@@ -1,5 +1,0 @@
-Title: ¿Cómo lo hago?
-
-----
-
-Text: Orientación sobre temas Zammad

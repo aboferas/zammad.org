@@ -1,5 +1,0 @@
-Title: General
-
-----
-
-Text: Información general sobre Zammad

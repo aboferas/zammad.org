@@ -6,11 +6,11 @@ Author: Zammad GmbH
 
 ----
 
-Description: The Zammad Ticket System Community Page
+Description: The Zammad - Help Desk and Ticket System - Community Page
 
 ----
 
-Keywords: Documentation
+Keywords: Zammad, Help Desk, helpdesk, Features, Servicedesk, Ticket System, Support System, Communication
 
 ----
 

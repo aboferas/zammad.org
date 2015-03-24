@@ -1,5 +1,0 @@
-Title: Howto's
-
-----
-
-Text: Anleitungen zu Zammad Themen

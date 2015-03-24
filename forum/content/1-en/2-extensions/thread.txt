@@ -1,5 +1,0 @@
-Title: Extensions
-
-----
-
-Text: Zammad Extensions

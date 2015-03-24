@@ -1,5 +1,0 @@
-Title: Erweiterungen
-
-----
-
-Text: Zammad Erweiterungen

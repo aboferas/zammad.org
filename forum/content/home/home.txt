@@ -1,9 +1,0 @@
-Title: Forum
-----
-Text:
-
-The Zammad forum is here to get you all connected. Feel free to post anything Zammad-related you want to ask or discuss with other Zammad users.
-
-To post on the forum you need a (link: twitter.com text: Twitter account). Please make sure to check for related topics before posting a new one and post new topics in the right thread.
-
-If you find an bug in the software please report it on (link: github.com/zammad/zammad text: Github).

@@ -25,7 +25,7 @@
     <section class="team">
       <?= $page->team()->kirbytext() ?>
       <div class="columns columns--3">
-        <? foreach($pages->find('team')->children() as $member): ?>
+        <? foreach($pages->find('authors')->children() as $member): ?>
         <div class="member column">
           <div class="avatar" style="background-image: url(<?= $member->images()->first()->url() ?>)"></div>
           <div class="name"><?= $member->name() ?></div>

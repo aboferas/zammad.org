@@ -1,3 +1,28 @@
+/* Fonts
+-------------------------------------------------- */
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/firasans-regular-webfont.eot');
+  src: url('../fonts/firasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/firasans-regular-webfont.woff') format('woff'),
+       url('../fonts/firasans-regular-webfont.ttf') format('truetype'),
+       url('../fonts/firasans-regular-webfont.svg#fira_sansregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Fira Sans';
+  src: url('../fonts/firasans-bold-webfont.eot');
+  src: url('../fonts/firasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/firasans-bold-webfont.woff') format('woff'),
+       url('../fonts/firasans-bold-webfont.ttf') format('truetype'),
+       url('../fonts/firasans-bold-webfont.svg#fira_sansbold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -804,7 +829,7 @@ input[type=search] + .btn {
   right: -1.25em;
   top: 2px;
   font-size: 1em;
-  font-weight: 400;
+  font-weight: normal;
   color: hsl(47,100%,59%);
 }
 

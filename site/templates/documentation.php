@@ -20,7 +20,7 @@
   </div>
   <article>
     <h2><?= $page->title()->html() ?></h2>
-    <?= $page->text()->markdown() ?>
+    <?= $page->text()->kirbytext() ?>
   </article>
 </div>
 

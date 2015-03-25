@@ -40,5 +40,11 @@ c::set('routes', array(
       $first_entry = $first_category->children()->visible()->first();
       return go($first_entry->url());
     }
+  ),
+  array(
+    'pattern' => 'forum',
+    'action' => function() {
+      return go('//forum.zammad.org');
+    }
   )
 ));

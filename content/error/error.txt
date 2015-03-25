@@ -1,5 +1,5 @@
-Title: Error
+Title: Requested Page was not found.
 
 ----
 
-Text: The page has not been found.
+Text: Sorry, but the Phoenix is not able to find your page. Try checking the URL for errors.

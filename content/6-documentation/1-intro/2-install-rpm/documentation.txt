@@ -1,6 +1,8 @@
 Title: Install with RPM
 ----
 
+Text:
+
 Currently we support CentOS6 and CentOS7.
 
 Text:

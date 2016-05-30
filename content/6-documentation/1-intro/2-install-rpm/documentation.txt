@@ -33,14 +33,18 @@ sudo yum -y install zammad
 
 In this case PostgreSQL (we also support MySQL/MariaDB).
 
+Make fresh database server up and running:
 ```bash
 sudo postgresql-setup initdb
 systemctl start postgresql.service
 systemctl enable postgresql.service
 sudo -u postgres createuser --interactive
 sudo -u postgres createuser -d zammad
+```
 
-/opt/zammad/config/database.yml
+Check config for database connection in /opt/zammad/config/database.yml
+
+```bash
 production:
   adapter: postgresql
   database: zammad_production
@@ -49,8 +53,6 @@ production:
   encoding: utf8
   username: zammad
   password:
-
-
 ```
 
 4. Initialize your database
@@ -63,7 +65,7 @@ production:
 
 5. Start Zammad services:
 
-Generate generate init scripts for your platform
+Generate generate init scripts for your platform and start Zammad services:
 ```bash
   shell> sudo zammad scale web=1 worker=1 websocket=1
 ```

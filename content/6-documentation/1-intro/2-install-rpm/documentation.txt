@@ -1,0 +1,105 @@
+Title: Install with RPM
+----
+
+Currently we support CentOS6 and CentOS7.
+
+Text:
+
+1. Add Zammad RPM Repo and install RPM
+
+CentOS7
+
+```bash
+sudo rpm --import https://rpm.packager.io/key
+echo "[zammad]
+name=Repository for martini/zammad application.
+baseurl=https://default:042091658ac9c385fbbfa09334f22969@rpm.packager.io/gh/martini/zammad/centos7/master
+enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
+sudo yum -y install zammad
+```
+
+CentOS6
+
+```bash
+sudo rpm --import https://rpm.packager.io/key
+echo "[zammad]
+name=Repository for martini/zammad application.
+baseurl=https://default:042091658ac9c385fbbfa09334f22969@rpm.packager.io/gh/martini/zammad/centos6/master
+enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
+sudo yum -y install zammad
+```
+
+2. Configure your databases
+
+In this case PostgreSQL (we also support MySQL/MariaDB).
+
+```bash
+sudo postgresql-setup initdb
+systemctl start postgresql.service
+systemctl enable postgresql.service
+sudo -u postgres createuser --interactive
+sudo -u postgres createuser -d zammad
+
+/opt/zammad/config/database.yml
+production:
+  adapter: postgresql
+  database: zammad_production
+  pool: 50
+  timeout: 5000
+  encoding: utf8
+  username: zammad
+  password:
+
+
+```
+
+4. Initialize your database
+
+```bash
+  shell> sudo zammad run rake db:create
+  shell> sudo zammad run rake db:migrate
+  shell> sudo zammad run rake db:seed
+```
+
+5. Start Zammad services:
+
+Generate generate init scripts for your platform
+```bash
+  shell> sudo zammad scale web=1 worker=1 websocket=1
+```
+
+Start Zammad services at boot:
+```bash
+  shell> chkconfig zammad on
+```
+
+You can manage the Zammad services manually:
+```bash
+  shell> sudo service zammad status
+  shell> sudo service zammad stop
+  shell> sudo service zammad start
+  shell> sudo service zammad restart
+
+  # only web application server
+  shell> sudo service zammad-web status
+  shell> sudo service zammad-web stop
+  shell> sudo service zammad-web start
+  shell> sudo service zammad-web restart
+
+  # only worker process
+  shell> sudo service zammad-worker status
+  shell> sudo service zammad-worker stop
+  shell> sudo service zammad-worker start
+  shell> sudo service zammad-worker restart
+
+  # only websocket server
+  shell> sudo service zammad-websocket status
+  shell> sudo service zammad-websocket stop
+  shell> sudo service zammad-websocket start
+  shell> sudo service zammad-websocket restart
+
+```
+
+6. Go to http://localhost:3000 and you'll see:
+  "Welcome to Zammad!", there you need to create your admin
+  user and you need to invite other agents.

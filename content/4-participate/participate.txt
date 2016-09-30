@@ -10,8 +10,8 @@ Klingon or Berbice Dutch Creole. Let's go:
 ----
 Source:
 
-## Download the source code from Github:
-(link: / text: Zammad on Github class: btn btn--primary btn--github)
+## Get the source code from Github:
+(link: https://github.com/zammad/zammad text: Zammad on Github class: btn btn--primary btn--github)
 ----
 Text:
 

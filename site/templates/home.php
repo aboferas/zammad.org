@@ -28,6 +28,7 @@
     </div>
   </div>
 </div>
+<!--
 <div class="sections wrapper columns columns--2">
   <div class="column">
     <?= $page->section1()->kirbytext() ?>
@@ -36,5 +37,5 @@
     <?= $page->section2()->kirbytext() ?>
   </div>
 </div>
-
+-->
 <? snippet('footer') ?>

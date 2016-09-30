@@ -1,4 +1,4 @@
-Title: Home & Downlod
+Title: Home & Download
 ----
 Header: Welcome to the Zammad Community
 ----

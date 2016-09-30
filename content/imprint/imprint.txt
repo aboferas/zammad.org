@@ -38,6 +38,7 @@ Marienstraße 11
 10117 Berlin
 Germany
 
+***
 
 _Legal Note_
 #### No developers were harmed during<br> the production of Zammad

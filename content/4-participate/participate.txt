@@ -10,15 +10,8 @@ Klingon or Berbice Dutch Creole. Let's go:
 ----
 Source:
 
-## Get the source code from Github:
-(link: https://github.com/zammad/zammad text: Zammad on Github class: btn btn--primary btn--github)
-----
-Text:
 
-****
-
-
-## Did you find a bug?**
+## Did you find a bug?
 
 * **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/zammad/zammad/issues).
 
@@ -29,7 +22,7 @@ Text:
 
 ## Did you write a patch that fixes a bug?
 
-* Open a new GitHub pull request with the patch.
+* Open a new (link: https://github.com/zammad/zammad text: GitHub) pull request with the patch.
 
 * Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
 
@@ -47,7 +40,14 @@ Text:
 
 ## Do you have questions about the source code?
 
-* Ask any question about how to use Ruby on Rails in the [zammad-dev mailing list](https://groups.google.com/forum/?fromgroups#!forum/zammad-dev).
+* Ask any question about about the source code in the [zammad-dev mailing list](https://groups.google.com/forum/?fromgroups#!forum/zammad-dev).
+
+
+****
+
+## Do you have questions about how to use Zammad?
+
+* Ask any question about how to use Zammad in the [zammad-users mailing list](https://groups.google.com/forum/?fromgroups#!forum/zammad-users).
 
 
 ****

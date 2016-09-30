@@ -506,7 +506,7 @@ article pre[class*="language-"] {
   -webkit-flex: 1;
           flex: 1;
 }
-  
+
 .sidebar nav {
   padding: 3.5em 1em 8px 0;
 }
@@ -1045,9 +1045,9 @@ input,
 }
 
 input {
-  -webkit-appearance: none;  
-     -moz-appearance: none;  
-      -ms-appearance: none;  
+  -webkit-appearance: none;
+     -moz-appearance: none;
+      -ms-appearance: none;
 }
 
 input,
@@ -1063,7 +1063,7 @@ input,
   border: none;
   cursor: pointer;
 }
-  
+
 .btn:hover {
   border: none;
   color: white;
@@ -1102,7 +1102,7 @@ input,
 
 .btn--success {
   background: #38ab6a;
-}  
+}
 .btn--success:hover {
   background: hsl(146,51%,50%);
 }
@@ -1132,4 +1132,8 @@ input,
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+li {
+  margin-left: 20px;
 }

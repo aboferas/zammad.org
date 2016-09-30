@@ -1,5 +1,0 @@
-Title: Forum
-----
-Subtitle:
-
-Get connected with fellow Zammad users

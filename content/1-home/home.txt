@@ -29,11 +29,6 @@ Downloads:
   platform: "Docker"
   version: "V 1.0.1"
   download: https://registry.hub.docker.com/o/zammad/zammad-docker/
--
-  intro: "Zammad as"
-  platform: "Appliance"
-  version: "V 1.0.1/1.0.1 / (link: / text: options)"
-  download: /
 ----
 Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: http://zammad.com text: zammad.com)
 ----

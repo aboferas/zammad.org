@@ -17,10 +17,45 @@ Text:
 
 ****
 
-## Create features or support Zammad by fixing bugs
-_Registered members only._
 
-Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do amet laboris in ex enim sed nulla mollit aliquip commodo amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo (link: # text: est exercitation) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint (link: # text: dolore) fugiat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.
+## Did you find a bug?**
+
+* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/zammad/zammad/issues).
+
+* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/zammad/zammad/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+
+
+****
+
+## Did you write a patch that fixes a bug?
+
+* Open a new GitHub pull request with the patch.
+
+* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
+
+
+****
+
+## Do you intend to add a new feature or change an existing one?
+
+* Suggest your change in the [zammad-core mailing list](https://groups.google.com/forum/?fromgroups#!forum/zammad-core) and start writing code.
+
+* Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
+
+
+****
+
+## Do you have questions about the source code?
+
+* Ask any question about how to use Ruby on Rails in the [zammad-dev mailing list](https://groups.google.com/forum/?fromgroups#!forum/zammad-dev).
+
+
+****
+
+## Do you want to contribute to the Zammad documentation?
+
+* Open a new GitHub pull request with the changes (https://github.com/zammad/zammmad.org/content/6-documentation/).
+
 
 ****
 
@@ -31,3 +66,9 @@ _Looking for Swedish and Finnish folks._
 Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do (link: # text: amet laboris) in ex enim sed nulla mollit aliquip commodo.
 
 amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo (link: # text: est exercitation) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint (link: # text: dolore) fugiat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.
+
+****
+
+Thanks! ❤️ ❤️ ❤️
+
+Zammad Team

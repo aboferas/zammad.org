@@ -8,7 +8,6 @@ Develop features, smash some bugs or help us to translate Zammad to
 
 Klingon or Berbice Dutch Creole. Let's go:
 ----
-Source:
 
 
 ## Did you find a bug?
@@ -54,7 +53,7 @@ Source:
 
 ## Do you want to contribute to the Zammad documentation?
 
-* Open a new GitHub pull request with the changes (https://github.com/zammad/zammmad.org/content/6-documentation/).
+* Open a new (link: https://github.com/zammad/zammad.org/ text: GitHub) pull request with the changes.
 
 
 ****

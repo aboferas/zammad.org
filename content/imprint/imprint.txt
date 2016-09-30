@@ -10,7 +10,7 @@ Squint your eyes and discover something.
 ----
 Text:
 
-_Zammad is a service provided by_
+_Zammad.org is a service provided by_
 ##(link: http://www.zammad.com/ text: Zammad GmbH)
 _Berlin, Germany_
 
@@ -19,6 +19,9 @@ _Post Adress_
 Marienstraße 11
 10117 Berlin
 Germany
+
+Trade Register: Charlottenburg, Nr. HRB 163946 B
+Place of office: Berlin (Mitte)
 
 _represented by_
 #### Martin Edenhofer

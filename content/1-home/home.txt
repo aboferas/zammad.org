@@ -36,15 +36,3 @@ Downloads:
   download: /
 ----
 Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: http://zammad.com text: zammad.com)
-----
-Section1:
-(image: hands-on.svg)
-_Hands-on Area_
-###Join our community and help making Zammad better by smashing bugs or building features.
-(link: participate class: btn btn--primary text: Get things done)
-----
-Section2:
-(image: serviced-area.svg)
-_Serviced Area_
-### Would you rather have  cosy set-up that's ready to use and frequently updated?
-(link: participate class: btn btn--primary text: This way please)

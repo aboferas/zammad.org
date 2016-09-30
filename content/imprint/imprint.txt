@@ -26,6 +26,7 @@ Place of office: Berlin (Mitte)
 _represented by_
 #### Martin Edenhofer
 
+***
 
 _Source Code Owner of Zammad is_
 ##(link: http://www.zammad-foundation.org/ text: Zammad Foundation)

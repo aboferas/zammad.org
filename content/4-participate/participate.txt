@@ -2,13 +2,13 @@ Title: Be part of it!
 ----
 Header: Let's make Zammad better
 ----
-Subtitle: 
+Subtitle:
 
 Develop features, smash some bugs or help us to translate Zammad to
 
 Klingon or Berbice Dutch Creole. Let's go:
 ----
-
+Text:
 
 ## Did you find a bug?
 

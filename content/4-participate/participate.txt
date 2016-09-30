@@ -62,7 +62,7 @@ Text:
 
 * Just open your Zammad with admin permissions and press "ctrl+alt+t", then you can translate text in inline mode or go to "Admin Interface" -> "Translations". Here you can translate all in one table.
 
-* Submit your changes to to review by our admin team via "Admin Interface" -> "Translations" -> "Push your changes"
+* Submit your changes for review by our admin team via "Admin Interface" -> "Translations" -> "Push your changes"
 
 That's all. Isn't it easy! 🤓
 

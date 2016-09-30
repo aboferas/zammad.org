@@ -58,13 +58,13 @@ Text:
 
 ****
 
-## Translation team
-_Looking for Swedish and Finnish folks._
+## Do you want to contribute translations?
 
-(image: sverige.png class: right caption: Vintage postcard of Sweden cc <a href="#">ragnarlothbrok</a>)
-Lorem ipsum Id nisi sint mollit culpa non consectetur ea sed exercitation aliqua aliquip ut ea enim sit nulla velit exercitation cillum magna do in commodo proident proident dolor enim do (link: # text: amet laboris) in ex enim sed nulla mollit aliquip commodo.
+* Just open your Zammad with admin permissions and press "ctrl+alt+t", then you can translate text in inline mode or go to "Admin Interface" -> "Translations". Here you can translate all in one table.
 
-amet voluptate anim laboris exercitation est tempor ad commodo labore in et consequat id ut est eu nisi officia in officia adipisicing nulla nulla laboris Duis commodo (link: # text: est exercitation) in consectetur velit dolor anim officia id qui sunt tempor Excepteur aute elit ad exercitation incididunt ea Duis mollit non sunt culpa pariatur tempor amet ut aliquip in aute in sunt do sint (link: # text: dolore) fugiat ea proident fugiat laboris anim exercitation ex dolore cupidatat irure in Ut culpa Excepteur commodo dolor laboris nostrud minim.
+* Submit your changes to to review by our admin team via "Admin Interface" -> "Translations" -> "Push your changes"
+
+That's all. Isn't it easy! 🤓
 
 ****
 

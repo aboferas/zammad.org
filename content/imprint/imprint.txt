@@ -14,7 +14,7 @@ _Zammad.org is a service provided by_
 ##(link: http://www.zammad.com/ text: Zammad GmbH)
 _Berlin, Germany_
 
-_Post Adress_
+_Post Address_
 
 Marienstraße 11
 10117 Berlin
@@ -32,7 +32,7 @@ _Source Code Owner of Zammad is_
 ##(link: http://www.zammad-foundation.org/ text: Zammad Foundation)
 _Berlin, Germany_
 
-_Post Adress_
+_Post Address_
 
 Marienstraße 11
 10117 Berlin

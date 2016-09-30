@@ -17,14 +17,16 @@ abstract class KirbytextAbstract {
 
   public $field;
 
-  public function __construct($field) {
+  public function __construct($field, $page = null) {
 
-    if(empty($field) or is_string($field)) {
-      $value = $field;
-      $field = new Field(page(), null, $value);
+    if(is_a($field, 'Field')) {
+      $this->field = $field;
+    } else if(is_array($field)) {
+      throw new Exception('Kirbytext cannot handle arrays');
+    } else if(empty($field) or is_string($field)) {
+      if(!$page) $page = page();
+      $this->field = new Field($page, null, $field);
     }
-
-    $this->field = $field;
 
   }
 
@@ -43,16 +45,14 @@ abstract class KirbytextAbstract {
       $text = call_user_func_array($filter, array($this, $text));
     }
 
-    // tags
-    $text = preg_replace_callback('!\((([^()]*|(?R))*)\)!', array($this, 'tag'), $text);
+    // tagsify
+    $text = preg_replace_callback('!(?=[^\]])\([a-z0-9_-]+:.*?\)!is', array($this, 'tag'), $text);
 
     // markdownify
-    $text = markdown($text);
+    $text = kirby::instance()->component('markdown')->parse($text);
 
-    // smartypants
-    if(kirby()->option('smartypants')) {
-      $text = smartypants($text);
-    }
+    // smartypantsify
+    $text = kirby::instance()->component('smartypants')->parse($text);
 
     // post filters
     foreach(static::$post as $filter) {
@@ -65,18 +65,9 @@ abstract class KirbytextAbstract {
 
   public function tag($input) {
 
-    // stop on escaped tags
-    if(substr($input[1], 0, 1) == '\\') return $input[0];
-
     // remove the brackets
-    $tag   = trim($input[1]);
-    $colon = strpos($tag, ':');
-
-    // stop on invalid tags
-    if(!$colon) return $input[0];
-
-    // fetch the tagname
-    $name = trim(substr($tag, 0, $colon));
+    $tag  = trim(rtrim(ltrim($input[0], '('), ')'));
+    $name = trim(substr($tag, 0, strpos($tag, ':')));
 
     // if the tag is not installed return the entire string
     if(!isset(static::$tags[$name])) return $input[0];

@@ -1,10 +1,9 @@
 <?php
 
-class TextareaField extends InputField {
+class TextareaField extends TextField {
 
   static public $assets = array(
     'js' => array(
-      'autosize.min.js',
       'editor.js'
     )
   );
@@ -14,13 +13,28 @@ class TextareaField extends InputField {
     $this->buttons = true;
   }
 
+  public function routes() {
+    return array(
+      array(
+        'pattern' => 'link',
+        'action'  => 'link',
+        'method'  => 'get|post'
+      ),
+      array(
+        'pattern' => 'email',
+        'action'  => 'email',
+        'method'  => 'get|post'
+      ),
+    );
+  }
+
   public function input() {
 
     $input = parent::input();
     $input->tag('textarea');
     $input->removeAttr('type');
     $input->removeAttr('value');
-    $input->html($this->value() ?: false);
+    $input->html($this->value() ? htmlentities($this->value(), ENT_NOQUOTES, 'UTF-8') : false);
     $input->data('field', 'editor');
 
     return $input;
@@ -37,7 +51,7 @@ class TextareaField extends InputField {
     $element = parent::element();
     $element->addClass('field-with-textarea');
 
-    if($this->buttons) {
+    if($this->buttons and !$this->readonly) {
       $element->addClass('field-with-buttons');
     }
 
@@ -49,7 +63,7 @@ class TextareaField extends InputField {
 
     $content = parent::content();
 
-    if($this->buttons) {
+    if($this->buttons and !$this->readonly) {
       $content->append($this->buttons());
     }
 
@@ -59,7 +73,7 @@ class TextareaField extends InputField {
 
   public function buttons() {
     require_once(__DIR__ . DS . 'buttons.php');
-    return new Buttons();
+    return new Buttons($this, $this->buttons);
   }
 
 }

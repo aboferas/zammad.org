@@ -18,7 +18,7 @@ For example: "state: open AND (from:me OR from:somebody else)"
 
 Note: In general you can use elasticsearch queries for search (https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html).
 
-## Examples
+### Examples
 
 * number:1118566
 * title:"some words with spaces" # exact phrase / wihtout " a OR search will be performed
@@ -38,7 +38,7 @@ Note: In general you can use elasticsearch queries for search (https://www.elast
 * article.body: heat~ # using the fuzzy operator will also find terms that are similar, in this case also "head"
 * article.body: /joh?n(ath[oa]n)/ # using regular expresions
 
-## Ticket Attributes
+### Ticket Attributes
 
 * number: string
 * title: string
@@ -61,7 +61,7 @@ Note: In general you can use elasticsearch queries for search (https://www.elast
 * escalation_at: timestamp
 * pending_time: timestamp
 
-## Article Attributes
+### Article Attributes
 
 * article.from: string
 * article.to: string

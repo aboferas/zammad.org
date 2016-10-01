@@ -6,15 +6,13 @@ Text:
 
 Tickets, article (with attachments), users and organizations are indexed per default.
 
-An simple search for all objects can be: "something"
+An simple search for all objects can be: "something". If you want to search for objetcs with certain attributes you can use "attribute: something".
 
-If you want to search for objetcs with certain attributes you can use "attribute: something".
-
-For example: "customer: some name"
+* For example: "customer: some name"
 
 With complex searches you can use conditions with () and AND/OR options.
 
-For example: "state: open AND (from:me OR from:somebody else)"
+* For example: "state: open AND (from:me OR from:somebody else)"
 
 Note: In general you can use elasticsearch queries for search (https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html).
 

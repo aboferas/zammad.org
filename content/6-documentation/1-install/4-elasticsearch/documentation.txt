@@ -26,7 +26,7 @@ shell> su - zammad
 zammad@shell> rails r "Setting.set('es_url', 'http://127.0.0.1:9200')"
 ```
 
-In certan cases you can also use the following settings (by default not needed)
+In certan cases you can also use the following settings **(by default not needed)**
 
 * Elasticsearch with http basic auth
 ```bash

@@ -1,38 +1,58 @@
-Title: Setup a Elasticsearch
+Title: Setup Elasticsearch
 ----
 
 Text:
 
-* Install Elasticsearch
+We use Elasticsearch for the awesome search in Zammad.
+
+### Install Elasticsearch & Attachment Plugin
+
+* Install Elasticsearch 2.4 on your Maschine
   https://www.elastic.co/downloads/elasticsearch (2.4.x)
 
-* Install attachment plugin
+* Install the Attachment Plugin
+```bash
   cd /usr/share/elasticsearch
   bin/plugin install mapper-attachments
+```
 
-* Configure elasticsearch
-  /etc/sysconfig/elasticsearch
-  ES_HEAP_SIZE=2g
+* Start Elasticsearch
+  Depends on your operating system
 
-  /etc/elasticsearch/elasticsearch.yml
-  http.max_content_length: 500mb
+### Configure Zammad to work with Elasticsearch
 
-* Configure Zammad
+```bash
+shell> su - zammad
+zammad@shell> rails r "Setting.set('es_url', 'http://127.0.0.1:9200')"
+```
 
-  * rails r "Setting.set('es_url', 'http://127.0.0.1:9200')"
+In certan cases you can also use the following settings (by default not needed)
 
-  optional - es with http basic auth
-  * rails r "Setting.set('es_user', 'elasticsearch')"
-  * rails r "Setting.set('es_password', 'zammad')"
+* Elasticsearch with http basic auth
+```bash
+zammad@shell> rails r "Setting.set('es_user', 'elasticsearch')"
+zammad@shell> rails r "Setting.set('es_password', 'zammad')"
+```
 
-  optional - extra es index name space
-  * rails r "Setting.set('es_index', Socket.gethostname + '_zammad')"
+* Extra Elasticsearch index name space
+```bash
+zammad@shell> rails r "Setting.set('es_index', Socket.gethostname + '_zammad')"
+```
 
-  optional - ignore certain file extentions
-  * rails r "Setting.set('es_attachment_ignore', [ '.png', '.jpg', '.jpeg', '.mpeg', '.mpg', '.mov', '.bin', '.exe', '.box', '.mbox' ] )"
+* Ignore certain file extentions for indexing
+```bash
+zammad@shell>  rails r "Setting.set('es_attachment_ignore', [ '.png', '.jpg', '.jpeg', '.mpeg', '.mpg', '.mov', '.bin', '.exe', '.box', '.mbox' ] )"
+```
 
-  optional - max attachment size which is used by es, default is 50 mb
-  * rails r "Setting.set('es_attachment_max_size_in_mb', 50)"
+* Max attachment size which is used for indexing, default is 50 mb
+```bash
+zammad@shell> rails r "Setting.set('es_attachment_max_size_in_mb', 50)"
+```
 
-* Create elastic search indexes
-  * rake searchindex:rebuild # drop/create/reload
+### Create Elasticsearch indexes
+
+After you have configured Zammad for using Elasticsearch, you need to rebuild the index by the following command:
+
+```bash
+zammad@shell> rake searchindex:rebuild # drop/create/reload
+```

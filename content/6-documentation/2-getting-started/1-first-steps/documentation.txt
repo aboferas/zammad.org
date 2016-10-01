@@ -1,0 +1,15 @@
+Title: First Steps
+----
+
+Text:
+
+After installing Zammad ... open http://localhost:3000 and you will get the following screen:
+
+(SCREENSHOT)
+
+Next you need:
+
+* 111
+* 222
+* 333
+* ...

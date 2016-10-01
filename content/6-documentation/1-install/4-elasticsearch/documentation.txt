@@ -17,7 +17,18 @@ We use Elasticsearch for the awesome search in Zammad.
 ```
 
 * Start Elasticsearch
-  Depends on your operating system
+
+CentOS 7:
+```bash
+shell> systemctl start elasticsearch
+shell> systemctl enable elasticsearch.service
+```
+
+CentOS 6:
+```bash
+shell> service elasticsearch start
+shell> chkconfig zammad on
+```
 
 ### Configure Zammad to work with Elasticsearch
 

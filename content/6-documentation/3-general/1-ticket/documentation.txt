@@ -6,7 +6,7 @@ Text:
 A Ticket is a container for a conversation with the customer about one dedecated topic/issue.
 
 
-### Ticket States (default setup)
+### Ticket States
 
 In default setup Zammad has the following Ticket states:
 

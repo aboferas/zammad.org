@@ -58,7 +58,7 @@ zammad@shell>  rails r "Setting.set('es_attachment_ignore', [ '.png', '.jpg', '.
 zammad@shell> rails r "Setting.set('es_attachment_max_size_in_mb', 50)"
 ```
 
-### Create Elasticsearch indexes (optional)
+### Create Elasticsearch indexes
 
 After you have configured Zammad for using Elasticsearch, you need to rebuild the index by the following command:
 

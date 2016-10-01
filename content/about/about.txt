@@ -21,12 +21,12 @@ title: The Zammad organisation
 branches:
   -
     body: Zammad Foundation
-    text: "a non-profit (NGO) organization that owns the Zammad project. This is important because it provides the legal liberty needed for an open source project. Visit the website at (link: http://zammad-foundation.org/)"
+    text: "a non-profit (NGO) organization that owns the Zammad source code. This is important because it provides the legal liberty needed for an open source project. Visit the website at (link: http://zammad-foundation.org/)"
   - 
     body: Zammad Community
     text: "our community website where you can download Zammad and contribute. It is the heart and soul of Zammad. Visit the website at (link: http://zammad.org/)"
   -
-    body: Zammad.com
+    body: Zammad Professional Services
     text: "the commercially operating website where you can purchase services for Zammad and rent a rent a hosted version of Zammad. (link: http://zammad.com/)"
 
 ----

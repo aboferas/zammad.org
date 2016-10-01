@@ -5,9 +5,8 @@ Text:
 
 Currently we support CentOS6 and CentOS7.
 
-Text:
 
-1. Add Zammad RPM Repo and install RPM
+### Add Zammad RPM Repo and install RPM
 
 CentOS7
 
@@ -31,7 +30,7 @@ enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
 sudo yum -y install zammad
 ```
 
-2. Configure your databases
+### Configure your databases
 
 In this case PostgreSQL (we also support MySQL/MariaDB).
 
@@ -57,15 +56,15 @@ production:
   password:
 ```
 
-4. Initialize your database
+### Initialize your database
 
 ```bash
-  shell> sudo zammad run rake db:create
-  shell> sudo zammad run rake db:migrate
-  shell> sudo zammad run rake db:seed
+  shell> sudo - zammad run rake db:create
+  shell> sudo - zammad run rake db:migrate
+  shell> sudo - zammad run rake db:seed
 ```
 
-5. Start Zammad services:
+### Start Zammad services:
 
 Generate generate init scripts for your platform and start Zammad services:
 ```bash
@@ -104,6 +103,5 @@ You can manage the Zammad services manually:
 
 ```
 
-6. Go to http://localhost:3000 and you'll see:
-  "Welcome to Zammad!", there you need to create your admin
-  user and you need to invite other agents.
+### Go to http://localhost:3000 and you'll see:
+  "Welcome to Zammad!", there you need to create your admin user and you need to invite other agents.

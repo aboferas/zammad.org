@@ -7,7 +7,7 @@ We use Elasticsearch for the awesome search in Zammad.
 
 ### Install Elasticsearch & Attachment Plugin
 
-* Install Elasticsearch 2.4 on your Maschine
+* Install Elasticsearch 2.4 on your maschine
   https://www.elastic.co/downloads/elasticsearch (2.4.x)
 
 * Install the Attachment Plugin

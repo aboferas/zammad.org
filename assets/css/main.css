@@ -1137,3 +1137,8 @@ input,
 li {
   margin-left: 20px;
 }
+
+code[class*="language-"],
+pre[class*="language-"] {
+  white-space: pre-line;
+}

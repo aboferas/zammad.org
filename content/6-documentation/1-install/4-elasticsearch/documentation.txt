@@ -20,7 +20,7 @@ We use Elasticsearch for the awesome search in Zammad.
 CentOS 7:
 ```bash
 shell> systemctl start elasticsearch
-shell> systemctl enable elasticsearch.service
+shell> systemctl enable elasticsearch
 ```
 CentOS 6:
 ```bash

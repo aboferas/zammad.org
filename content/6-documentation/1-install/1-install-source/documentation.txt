@@ -17,8 +17,13 @@ Text:
 
 ```bash
   zammad@shell> cd zammad
-  zammad@shell> gem install rails
-  zammad@shell> sudo bundle install
+  zammad@shell> gem install bundler
+
+  # For PostgreSQL (note, the option says "without ... mysql")
+  zammad@shell> bundle install --without test development mysql
+
+  # For MySQL (note, the option says "without ... postgres")
+  zammad@shell> bundle install --without test development postgres
 ```
 
 3. Configure your databases
@@ -37,7 +42,7 @@ Text:
   zammad@shell> rake db:seed
 ```
 
-5. Change directory to zammad (if needed) and start the web server:
+5. Change directory to zammad</tt> (if needed) and start the web server:
 
 ```bash
   zammad@shell> rake assets:precompile

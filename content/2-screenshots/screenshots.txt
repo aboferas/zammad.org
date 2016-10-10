@@ -28,7 +28,7 @@ Text:
 (image: shortcuts.png)
 
 ## Dashboard (initial)
-(image: dashboard_inital_login.jpg)
+(image: dashboard_initial_login.jpg)
 
 ## Login
 (image: login.png)

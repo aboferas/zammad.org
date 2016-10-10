@@ -3,15 +3,46 @@ Title: Twitter
 
 Text:
 
-A Ticket is a container for a conversation with the customer about one dedecated topic/issue.
-
+It's possible to put your Twitter communication into Zammad. To do so you need to follow the following steps:
 
 ### Register Twitter App
 
-In default setup Zammad has the following Ticket states:
+Register your Zammad as Twitter app under http://apps.twitter.com
+
+(image: apps.twitter.com_start.png caption: inital page)
+
+(image: apps.twitter.com_new_app_screen.png caption: new app page)
+
+(image: apps.twitter.com_created_app_screen.png caption: new app is created)
+
+(image: apps.twitter.com_set_permissions.png caption: set permissions to receive & send direct messages)
+
+(image: apps.twitter.com_get_credentials.png caption: click on Keys & Access Token, note them)
 
 
 ### Configure Zammad as Twitter App
 
+(image: zammad_connect_app1.png caption: Admin -> Channels -> Twitter)
+
+(image: zammad_connect_app2.png caption: Connect Twitter App, click "Submit")
+
+
+### Link your Twitter Account to your Zammad Twitter App
+
+(image: zammad_link_twitter_account.png caption: Click on "Add Account")
+
+(image: twitter.com_authorize_app.png caption: Twitter authorize app page will appear)
+
+(image: zammad_linked_twitter_account.png caption: Back in Zammad - settings)
+
+(image: zammad_linked_twitter_account_done.png caption: Back in Zammad - settings)
+
 
 ### Start using your new channel
+
+Start and write a message (direct message or tweet), short time later you will have a new ticket in Zammad.
+
+(image: zammad_first_tweet_as_ticket.png caption: A new Ticket - the tweet - just reply)
+
+(image: zammad_first_tweet_as_ticket_reply.png caption: Ticket after reply sent out)
+

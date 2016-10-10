@@ -1,0 +1,17 @@
+Title: Twitter
+----
+
+Text:
+
+A Ticket is a container for a conversation with the customer about one dedecated topic/issue.
+
+
+### Register Twitter App
+
+In default setup Zammad has the following Ticket states:
+
+
+### Configure Zammad as Twitter App
+
+
+### Start using your new channel

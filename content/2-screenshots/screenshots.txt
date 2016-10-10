@@ -18,6 +18,9 @@ Text:
 ## User Profile
 (image: user_profile.png)
 
+## Organization Profile
+(image: organization_profile.png)
+
 ## Chat Designer (with Preview)
 (image: admin_chat_preview.png)
 
@@ -25,7 +28,7 @@ Text:
 (image: shortcuts.png)
 
 ## Dashboard (initial)
-(image: dashboard_iniital_login.jpg)
+(image: dashboard_inital_login.jpg)
 
 ## Login
 (image: login.png)

@@ -20,7 +20,7 @@ In the preview mode you can test if the form fits your needs (e. g. open as moda
 
 Just copy the javascript snippet and paste it into your website. That's all. Just 2 minutes.
 
-(image: zammad_form_cp.png caption: copy the javascript snippet and paste it into your website - done)
+(image: zammad_form_js_cp.png caption: copy the javascript snippet and paste it into your website - done)
 
 
 Finally, it will look like the following:

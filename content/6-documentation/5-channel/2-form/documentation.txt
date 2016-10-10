@@ -1,0 +1,28 @@
+Title: Web Form
+----
+
+Text:
+
+### Form Designer
+
+The usecase is quite often, feedback or contact froms on web pages. Usally they will generate an email which drops of by somebody who is forwarding it the the next and so on. With Zammad ist quite easy to integrate this forms into your website and directly generate tickets from it. In just 2 minutes.
+
+Go to "Admin -> Channels -> Form" and enable the switch for this feature. Below you can adopt your form settings.
+
+
+(image: zammad_form_init.png caption: adopt your form settings)
+
+
+In the preview mode you can test if the form fits your needs (e. g. open as modal or show form inline in website)
+
+(image: zammad_form_init.png caption: test it in preview mode)
+
+
+Just copy the javascript snippet and paste it into your website. That's all. Just 2 minutes.
+
+(image: zammad_form_init.png caption: copy the javascript snippet and paste it into your website - done)
+
+
+Finally, it will look like the following:
+
+(image: zammad_form_live.png caption: example form with modal)

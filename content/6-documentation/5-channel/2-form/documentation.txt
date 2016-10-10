@@ -3,8 +3,6 @@ Title: Web Form
 
 Text:
 
-### Form Designer
-
 The usecase is quite often, feedback or contact froms on web pages. Usally they will generate an email which drops of by somebody who is forwarding it the the next and so on. With Zammad ist quite easy to integrate this forms into your website and directly generate tickets from it. In just 2 minutes.
 
 Go to "Admin -> Channels -> Form" and enable the switch for this feature. Below you can adopt your form settings.

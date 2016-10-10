@@ -3,8 +3,6 @@ Title: Chat
 
 Text:
 
-### Chat Designer
-
 Chat for company or customer support would have been looked upon as unprofessional just a few years ago. That has changed rapidly: today, the written conversation embodies personalized service and appreciation. If used properly, support via chat is a real efficiency booster. But chats also have a potential irritation factor if nobody responds or it’s just a robot holding the fort.
 We have designed the Zammad chat support so that we can remove as many of the disadvantages described above or at least cushion their blow.
 

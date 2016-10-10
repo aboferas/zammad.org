@@ -9,18 +9,23 @@ Text:
 ## Dashboard
 (image: dashboard.png)
 
-## Overview
-(image: overview.png)
+## Ticket Zoom
+(image: ticket_zoom.png)
 
-## Ticket
-(image: ticket.png)
+## Ticket Zoom (with text module)
+(image: ticket_zoom_text_module.png)
 
-## New Ticket
-(image: new_ticket.png)
+## User Profile
+(image: user_profile.png)
 
-## Settings
-(image: settings.png)
+## Chat Designer (with Preview)
+(image: admin_chat_preview.png)
 
+## Shortcuts
+(image: shortcuts.png)
 
-## Customer Login
-(image: customer_login.png)
+## Dashboard (initial)
+(image: dashboard_iniital_login.jpg)
+
+## Login
+(image: login.png)

@@ -15,12 +15,12 @@ Go to "Admin -> Channels -> Form" and enable the switch for this feature. Below 
 
 In the preview mode you can test if the form fits your needs (e. g. open as modal or show form inline in website)
 
-(image: zammad_form_init.png caption: test it in preview mode)
+(image: zammad_form_preview.png caption: test it in preview mode)
 
 
 Just copy the javascript snippet and paste it into your website. That's all. Just 2 minutes.
 
-(image: zammad_form_init.png caption: copy the javascript snippet and paste it into your website - done)
+(image: zammad_form_cp.png caption: copy the javascript snippet and paste it into your website - done)
 
 
 Finally, it will look like the following:

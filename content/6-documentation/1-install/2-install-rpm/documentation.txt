@@ -59,48 +59,47 @@ production:
 ### Initialize your database
 
 ```bash
-  shell> sudo - zammad run rake db:create
-  shell> sudo - zammad run rake db:migrate
-  shell> sudo - zammad run rake db:seed
+shell> sudo - zammad run rake db:create
+shell> sudo - zammad run rake db:migrate
+shell> sudo - zammad run rake db:seed
 ```
 
 ### Start Zammad services:
 
 Generate generate init scripts for your platform and start Zammad services:
 ```bash
-  shell> sudo zammad scale web=1 worker=1 websocket=1
+shell> sudo zammad scale web=1 worker=1 websocket=1
 ```
 
 Start Zammad services at boot:
 ```bash
-  shell> chkconfig zammad on
+shell> chkconfig zammad on
 ```
 
 You can manage the Zammad services manually:
 ```bash
-  shell> sudo service zammad status
-  shell> sudo service zammad stop
-  shell> sudo service zammad start
-  shell> sudo service zammad restart
+shell> sudo service zammad status
+shell> sudo service zammad stop
+shell> sudo service zammad start
+shell> sudo service zammad restart
 
-  # only web application server
-  shell> sudo service zammad-web status
-  shell> sudo service zammad-web stop
-  shell> sudo service zammad-web start
-  shell> sudo service zammad-web restart
+# only web application server
+shell> sudo service zammad-web status
+shell> sudo service zammad-web stop
+shell> sudo service zammad-web start
+shell> sudo service zammad-web restart
 
-  # only worker process
-  shell> sudo service zammad-worker status
-  shell> sudo service zammad-worker stop
-  shell> sudo service zammad-worker start
-  shell> sudo service zammad-worker restart
+# only worker process
+shell> sudo service zammad-worker status
+shell> sudo service zammad-worker stop
+shell> sudo service zammad-worker start
+shell> sudo service zammad-worker restart
 
-  # only websocket server
-  shell> sudo service zammad-websocket status
-  shell> sudo service zammad-websocket stop
-  shell> sudo service zammad-websocket start
-  shell> sudo service zammad-websocket restart
-
+# only websocket server
+shell> sudo service zammad-websocket status
+shell> sudo service zammad-websocket stop
+shell> sudo service zammad-websocket start
+shell> sudo service zammad-websocket restart
 ```
 
 ### Go to http://localhost:3000 and you'll see:

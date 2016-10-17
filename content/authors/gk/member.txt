@@ -1,0 +1,11 @@
+Name: Georg Klimm
+----
+DisplayName: Georg
+----
+Occupation: Application Designer
+----
+Quote:
+
+Zammad has the best multi channel integration to customers. You have all communications with the customer on one place. It's important for ISO-certifications too.
+----
+Likes: Linux, PHP & budgerigars 🕊

@@ -1,0 +1,11 @@
+Name: Thorsten Eckel
+----
+DisplayName: Thorsten
+----
+Occupation: Developer
+----
+Quote:
+
+Zammad combines the spirit and experience of more than 10 years in open source and ticketing with the energy and synergy of proven and modern web technologies and pulls me as a developer to implement ideas and functionalities that were not possible before. Finally I can focus on the essential while developing.
+----
+Likes: Websockets + RoR + intuitive UI & API = ❤️

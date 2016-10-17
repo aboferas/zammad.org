@@ -1,0 +1,11 @@
+Name: Roy Kaldung
+----
+DisplayName: Roy
+----
+Occupation: DevOp
+----
+Quote:
+
+Using Zammad is like using a desktop application (e. g. push notifications). Every information is shown to me automatically. And with the configurable text modules and all the keyboard shortcuts I’m able to focus on my regular daily job. Just try it!
+----
+Likes: Southern California, basketball 🏀, Hulu 📺

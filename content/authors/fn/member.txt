@@ -6,7 +6,6 @@ Occupation: Technical Consultant
 ----
 Quote:
 
-Zammad is a big deal because 
-it's in an market without 
-an elegant and powerful open 
-source alternative.
+Finally a web application that leaves behind old Internet Explorers. Working with the latest web standards makes layouting the interface a breeze.
+----
+Likes: Marie, Electric Scooters, Livereload

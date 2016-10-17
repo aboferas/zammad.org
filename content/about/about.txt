@@ -12,7 +12,14 @@ Text:
 
 ## Why we made Zammad
 
-More than 7 million people use Zammad to create, send, and track support tickets. Wether you're self-employed, you manage projects for clients, or you work for a Fortune 500 company, Zammad has features and integrations that will suite your email marketing needs.
+As we all know, back in the day everything was much easier. Urgent questions were received by phone call. If something had a bit of time, you handled it by “snail” mail. But the way we communicate has dramatically changed since those days. Privately we communicate through multiple channels: WhatsApp, Facebook, Instagram, Twitter and others have long been part of everyday life. And companies have taken note of this too. With success comes a heightened need for communication - and thus the number of tools needed to meet that need.
+
+Zammad did not invent the ticketing system. But we firmly believe that it’s got a lot of potential to be: Better. More open. Freer. - With Zammad we’re not only creating a new and fresh start for an established software division: we’re starting a movement, a community. The launch of Zammad was a big bang of a new galaxy of open source help desk software.
+
+## Our mission: Quality of Life
+
+If you ask us what our goal is with Zammad, we have a lot of prepared answers. Bottom line, what’s important is that our end users can work in office properly and conscientiously, and that in their free time they be able to devote themselves with a clear conscience to what makes life worth living - be it spending time with the family, kitesurfing, building ships in a bottle or playing the didgeridoo. We hope that the Zammad will give people security and confidence and make their lives a little more pleasant. The tickets won’t run away.
+
 ----
 Organisation:
 
@@ -22,12 +29,12 @@ branches:
   -
     body: Zammad Foundation
     text: "a non-profit (NGO) organization that owns the Zammad source code. This is important because it provides the legal liberty needed for an open source project. Visit the website at (link: http://zammad-foundation.org/)"
-  - 
+  -
     body: Zammad Community
     text: "our community website where you can download Zammad and contribute. It is the heart and soul of Zammad. Visit the website at (link: http://zammad.org/)"
   -
     body: Zammad Professional Services
-    text: "the commercially operating website where you can purchase services for Zammad and rent a rent a hosted version of Zammad. (link: http://zammad.com/)"
+    text: "the commercially operating website where you can purchase services for Zammad and rent a rent a hosted version of Zammad. (link: https://zammad.com/)"
 
 ----
 Team:

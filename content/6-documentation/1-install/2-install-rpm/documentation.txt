@@ -3,7 +3,7 @@ Title: Install with RPM
 
 Text:
 
-Currently we support CentOS6 and CentOS7.
+Currently we support RHEL6/CentOS6 and RHEL7/CentOS7.
 
 
 ### Add Zammad RPM Repo and install RPM

@@ -19,18 +19,21 @@ Downloads:
   platform: "Source"
   version: "V 1.0.1"
   download: /
+  downloadText: Download
 -
   intro: "Zammad for"
-  platform: "CentOS"
+  platform: "RHEL/CentOS"
   version: "V 1.0.1"
-  download: /
+  download: /documentation/install/install-rpm
+  downloadText: Install
 -
   intro: "Zammad for"
   platform: "Docker"
   version: "V 1.0.1"
-  download: https://registry.hub.docker.com/o/zammad/zammad-docker/
+  download: /documentation/install/install-docker
+  downloadText: Install
 ----
-Hint: (image: zammad-question.svg) Looking for OS X or Windows? Well, maybe you should consider visiting our siter size (link: http://zammad.com text: zammad.com)
+Hint: (image: zammad-question.svg) Looking for OS X or Windows? We don't have one. Maybe you should consider visiting our siter size (link: https://zammad.com text: zammad.com)
 ----
 Section1:
 (image: hands-on.svg)

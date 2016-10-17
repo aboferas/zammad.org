@@ -17,7 +17,7 @@
           <div class="label"><?= $download['intro'] ?></div>
           <div class="os"><?= $download['platform'] ?></div>
           <div class="version"><?= kirbytext($download['version']) ?></div>
-          <a class="btn btn--success" href="<?= $download['download'] ?>" download>Download</a>
+          <a class="btn btn--success" href="<?= $download['download'] ?>" download>$download['downloadText']</a>
         </div>
       <? endforeach ?>
       </div>

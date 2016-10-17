@@ -547,6 +547,7 @@ pre {
 .member {
   text-align: center;
   padding: 20px;
+  height: 360px;
 }
 
 .member .avatar {

@@ -12,6 +12,9 @@
       <?= $page->text()->kirbytext() ?>
     </section>
     <section>
+      <?= $page->mission()->kirbytext() ?>
+    </section>
+    <section>
       <? $organisation = $page->organisation()->yaml() ?>
       <h2><?= $organisation['title'] ?></h2>
       <table>
@@ -34,9 +37,6 @@
         </div>
         <? endforeach ?>
       </div>
-    </section>
-    <section>
-      <?= $page->join()->kirbytext() ?>
     </section>
   </main>
 </div>

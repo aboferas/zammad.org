@@ -6,6 +6,6 @@ Occupation: Developer
 ----
 Quote:
 
-We’ve been extra careful desinging a software a lot of people will use eery day, all day.
+We’ve been extra careful desinging a software a lot of people will use every day, all day.
 ----
 Likes: Ruby and Beef

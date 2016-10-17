@@ -9,7 +9,7 @@ Your Docker environment need's to be up and running.
 
 You can find the image at https://hub.docker.com/r/zammad/zammad/
 
-### Download a Docker Container
+### Download the Docker Image
 
 Let’s begin using Docker! Download the Zammad Docker image:
 

@@ -16,6 +16,9 @@ As we all know, back in the day everything was much easier. Urgent questions wer
 
 Zammad did not invent the ticketing system. But we firmly believe that it’s got a lot of potential to be: Better. More open. Freer. - With Zammad we’re not only creating a new and fresh start for an established software division: we’re starting a movement, a community. The launch of Zammad was a big bang of a new galaxy of open source help desk software.
 
+----
+Mission:
+
 ## Our mission: Quality of Life
 
 If you ask us what our goal is with Zammad, we have a lot of prepared answers. Bottom line, what’s important is that our end users can work in office properly and conscientiously, and that in their free time they be able to devote themselves with a clear conscience to what makes life worth living - be it spending time with the family, kitesurfing, building ships in a bottle or playing the didgeridoo. We hope that the Zammad will give people security and confidence and make their lives a little more pleasant. The tickets won’t run away.
@@ -41,8 +44,3 @@ Team:
 
 ## Our Team
 _We launched Zammad for you._
-----
-Join:
-
-## Join us!
-Right now, we have no open positions at Zammad. But we are always curious and open for fresh talent. Write to jobs@zammad.org and include your CV and some samples of work.

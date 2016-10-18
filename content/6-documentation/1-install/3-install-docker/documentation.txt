@@ -5,7 +5,7 @@ Text:
 
 Docker is a container-based software framework for automating deployment of applications. Our Docker image is a **single container** based application designed to have Zammad **fast up and running for testing propose**.
 
-Your Docker environment need's to be up and running.
+Your Docker environment needs to be up and running.
 
 You can find the image at https://hub.docker.com/r/zammad/zammad/
 

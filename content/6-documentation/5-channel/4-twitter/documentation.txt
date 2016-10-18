@@ -3,11 +3,11 @@ Title: Twitter
 
 Text:
 
-It's possible to put your Twitter communication into Zammad. To do so you need to follow the following steps:
+It's possible to put your Twitter communication into Zammad. To do so, you need to follow these steps:
 
 ### Register Twitter App
 
-Register your Zammad as Twitter app under http://apps.twitter.com. It's required to be able to let Zammad read/write tweets.
+Register your Zammad as Twitter app under http://apps.twitter.com. It's required to to let Zammad read/write tweets.
 
 (image: apps.twitter.com_start.png caption: inital page)
 
@@ -23,11 +23,11 @@ After the app has been created, update the application icon and organization att
 
 (image: apps.twitter.com_set_permissions.png caption: set permissions to receive & send direct messages)
 
-Next we need to set read & write & access direct messages permissions for the app.
+Next we need to set read, write & access direct messages permissions for the app.
 
 (image: apps.twitter.com_get_credentials.png caption: click on Keys & Access Token, note them)
 
-Got to "Keys and Access Token" tab an note the "Consumer Key" and "Consumer Secret".
+Go to "Keys and Access Token" tab and note the "Consumer Key" and "Consumer Secret".
 
 
 ### Configure Zammad as Twitter App
@@ -47,7 +47,7 @@ Done, your Zammad is configured as Twitter App now.
 
 Now you need to link your Twitter Account from which you want to get tweets and send out tweets.
 
-Click on "Add Account", then you will get the authorize app page from Twitter. Click on "authorize app".
+Click on "Add Account", then you will see the authorize app page of Twitter. Click on "authorize app".
 
 (image: zammad_link_twitter_account.png caption: Click on "Add Account")
 
@@ -69,7 +69,7 @@ Start and write a message (direct message or tweet), short time later you will h
 
 (image: zammad_first_tweet_as_ticket.png caption: A new Ticket - the tweet - just reply)
 
-Just reply (as you do it for emails) and send out a reply to the sender.
+Just click on reply button (as you do it for emails) to send a reply.
 
 (image: zammad_first_tweet_as_ticket_reply.png caption: Ticket after reply sent out)
 

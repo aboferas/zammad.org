@@ -66,7 +66,7 @@ shell> sudo - zammad run rake db:seed
 
 ### Start Zammad services:
 
-Generate generate init scripts for your platform and start Zammad services:
+Generate init scripts for your platform and start Zammad services:
 ```bash
 shell> sudo zammad scale web=1 worker=1 websocket=1
 ```

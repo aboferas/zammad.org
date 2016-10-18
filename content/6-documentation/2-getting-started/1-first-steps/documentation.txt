@@ -3,13 +3,11 @@ Title: First Steps
 
 Text:
 
-After installing Zammad ... open http://localhost:3000 and you will get the following screen:
+After installing Zammad open http://localhost:3000 with your browser and follow the installer wizard.
 
-(SCREENSHOT)
+Basically you need to do the following things:
 
-Next you need:
-
-* 111
-* 222
-* 333
-* ...
+* Create an admin account
+* Set your system basics like hostname and logo
+* Connect channels like an email account
+* Invite agent and customer to work with you in Zammad

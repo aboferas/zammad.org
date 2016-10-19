@@ -13,10 +13,10 @@ CentOS7
 ```bash
 sudo rpm --import https://rpm.packager.io/key
 echo "[zammad]
-name=Repository for martini/zammad application.
-baseurl=https://default:042091658ac9c385fbbfa09334f22969@rpm.packager.io/gh/martini/zammad/centos7/master
+name=Repository for zammad/zammad application.
+baseurl=https://rpm.packager.io/gh/zammad/zammad/centos7/release-1.0
 enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
-sudo yum -y install zammad
+sudo yum install zammad
 ```
 
 CentOS6
@@ -24,10 +24,10 @@ CentOS6
 ```bash
 sudo rpm --import https://rpm.packager.io/key
 echo "[zammad]
-name=Repository for martini/zammad application.
-baseurl=https://default:042091658ac9c385fbbfa09334f22969@rpm.packager.io/gh/martini/zammad/centos6/master
+name=Repository for zammad/zammad application.
+baseurl=https://rpm.packager.io/gh/zammad/zammad/centos6/release-1.0
 enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
-sudo yum -y install zammad
+sudo yum install zammad
 ```
 
 ### Configure your databases

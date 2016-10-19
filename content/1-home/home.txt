@@ -18,8 +18,8 @@ Downloads:
   intro: "Zammad as"
   platform: "Source"
   version: "V 1.0.1"
-  download: /
-  downloadText: Download
+  download: /documentation/install/install-source
+  downloadText: Install
 -
   intro: "Zammad for"
   platform: "RHEL/CentOS"

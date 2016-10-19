@@ -33,7 +33,7 @@ Downloads:
   download: /documentation/install/install-docker
   downloadText: Install
 ----
-Hint: (image: zammad-question.svg) Looking for OS X or Windows? We don't have one. Maybe you should consider visiting our siter size (link: https://zammad.com text: zammad.com)
+Hint: (image: zammad-question.svg) Looking for OS X or Windows? We don't have one. Maybe you should consider visiting our sister size (link: https://zammad.com text: zammad.com)
 ----
 Section1:
 (image: hands-on.svg)

@@ -5,9 +5,9 @@ Text:
 
 It's possible to put your Twitter communication into Zammad. To do so, you need to follow these steps:
 
-### Register Twitter App
+### Register Twitter app
 
-Register your Zammad as Twitter app under http://apps.twitter.com. It's required to to let Zammad read/write tweets.
+Register your Zammad as Twitter app under http://apps.twitter.com. It's required to let Zammad read/write tweets.
 
 (image: apps.twitter.com_start.png caption: inital page)
 
@@ -23,14 +23,14 @@ After the app has been created, update the application icon and organization att
 
 (image: apps.twitter.com_set_permissions.png caption: set permissions to receive & send direct messages)
 
-Next we need to set read, write & access direct messages permissions for the app.
+Next we need to set read, write and access direct messages permissions for the app.
 
 (image: apps.twitter.com_get_credentials.png caption: click on Keys & Access Token, note them)
 
 Go to "Keys and Access Token" tab and note the "Consumer Key" and "Consumer Secret".
 
 
-### Configure Zammad as Twitter App
+### Configure Zammad as Twitter app
 
 Go to "Admin -> Channels -> Twitter"
 
@@ -43,7 +43,7 @@ Click on "Connect Twitter App" and enter your "Consumer Key", "Consumer Secret" 
 Done, your Zammad is configured as Twitter App now.
 
 
-### Link your Twitter Account to your Zammad Twitter App
+### Link your Twitter account to your Zammad Twitter app
 
 Now you need to link your Twitter Account from which you want to get tweets and send out tweets.
 

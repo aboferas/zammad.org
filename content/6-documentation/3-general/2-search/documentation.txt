@@ -4,9 +4,9 @@ Title: Search Cheat Sheet
 Text:
 
 
-Tickets, article (with attachments), users and organizations are indexed per default.
+Tickets, articles (with attachments), users and organizations are indexed by default.
 
-An simple search for all objects can be: "something". If you want to search for objetcs with certain attributes you can use "attribute: something".
+A simple search for all objects can be: "something". If you want to search for objetcs with certain attributes you can use "attribute: something".
 
 * For example: "customer: some name"
 
@@ -14,13 +14,13 @@ With complex searches you can use conditions with () and AND/OR options.
 
 * For example: "state: open AND (from:me OR from:somebody else)"
 
-Note: In general you can use elasticsearch queries for search (https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html).
+Note: In general you can use Elasticsearch queries for search (https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html).
 
 ### Examples
 
 * number:1118566
-* title:"some words with spaces" # exact phrase / wihtout " a OR search will be performed
-* title:"some wor*" # exact phrase beginning with "some wor*" will be found
+* title:"some words with spaces" # exact phrase / without quotation marks " an OR search for the words will be performed
+* title:"some wor*" # exact phrase beginning with "some wor*" will be searched
 * created_at:[2017-01-01 TO 2017-12-31] # a time range
 * created_at:>now-1h # created within last hour
 * state:new OR state:open
@@ -29,14 +29,14 @@ Note: In general you can use elasticsearch queries for search (https://www.elast
 * state:(new OR open) AND title:(full text search) # state: new OR open & title: full OR text OR search
 * tag: sometag
 * tag: "some tag"
-* state:closed AND _missing_:tag # all closed objects with no tags
-* article_count: [1 TO 5] # tickets between 1 and 5 artciles
-* article:count: [10 TO *] # ticket with articles from 10 upwards
+* state:closed AND _missing_:tag # all closed objects without tags
+* article_count: [1 TO 5] # tickets with 1 to 5 articles
+* article:count: [10 TO *] # tickets with 10 or more articles
 * article.from: *bob* # also article.from can be used
 * article.body: heat~ # using the fuzzy operator will also find terms that are similar, in this case also "head"
-* article.body: /joh?n(ath[oa]n)/ # using regular expresions
+* article.body: /joh?n(ath[oa]n)/ # using regular expressions
 
-### Ticket Attributes
+### Ticket attributes
 
 * number: string
 * title: string
@@ -59,7 +59,7 @@ Note: In general you can use elasticsearch queries for search (https://www.elast
 * escalation_at: timestamp
 * pending_time: timestamp
 
-### Article Attributes
+### Article attributes
 
 * article.from: string
 * article.to: string

@@ -6,6 +6,6 @@ Occupation: UX Consultant
 ----
 Quote:
 
-Working on Zammad always felt like baking the last piece of the global open-source-web-cake. Now, let’s light a candle and celebrate!
+Working on Zammad always felt like baking the last piece of the global open source web cake. Now, let’s light a candle and celebrate!
 ----
 Likes: motorcycles 🏍, iOS, network stuff

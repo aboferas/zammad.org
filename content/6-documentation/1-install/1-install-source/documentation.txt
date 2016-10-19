@@ -5,14 +5,14 @@ Text:
 
 1. Install Zammad on your system
 
-You can directly download Zammad from http://ftp.zammad.com/ or use the direct url to get the latest stable via http://ftp.zammad.com/zammad-latest.tar.gz
+You can directly download Zammad from http://ftp.zammad.com/ or use the direct url to get the latest stable release via http://ftp.zammad.com/zammad-latest.tar.gz
 
 ```bash
 root@shell> wget http://ftp.zammad.com/zammad-latest.tar.gz
 root@shell> cd /opt/
 root@shell> tar -xzf zammad-latest.tar.gz
 root@shell> useradd zammad
-zammad@shell> su - zammad
+root@shell> su - zammad
 ```
 
 2. Install all dependencies
@@ -44,7 +44,7 @@ zammad@shell> rake db:migrate
 zammad@shell> rake db:seed
 ```
 
-5. Change directory to zammad</tt> (if needed) and start the web server:
+5. Change directory to zammad (if needed) and start the web server:
 
 ```bash
 zammad@shell> rake assets:precompile

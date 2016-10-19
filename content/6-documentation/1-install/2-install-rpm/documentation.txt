@@ -32,9 +32,9 @@ sudo yum install zammad
 
 ### Configure your databases
 
-In this case PostgreSQL (we also support MySQL/MariaDB).
+The example uses PostgreSQL (we also support MySQL/MariaDB).
 
-Make fresh database server up and running:
+Get a fresh database server up and running:
 ```bash
 sudo postgresql-setup initdb
 systemctl start postgresql.service

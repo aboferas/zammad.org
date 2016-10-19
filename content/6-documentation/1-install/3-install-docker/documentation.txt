@@ -3,7 +3,7 @@ Title: Install with Docker
 
 Text:
 
-Docker is a container-based software framework for automating deployment of applications. Our Docker image is a **single container** based application designed to have Zammad **fast up and running for testing propose**.
+Docker is a container-based software framework for automating deployment of applications. Our Docker image is a **single container** based application designed to have Zammad **up and running fast for testing proposes**.
 
 Your Docker environment needs to be up and running.
 
@@ -26,7 +26,7 @@ docker run -ti -p 3001:80 zammad/zammad
 
 That’s it! You’re now using a bash shell inside of a Zammad docker container.
 
-To disconnect, or detach, from the shell without exiting use the escape sequence Ctrl-p + Ctrl-q.
+To disconnect or detach from the shell without exiting, use the escape sequence Ctrl-p + Ctrl-q.
 
 
 ### Go to http://localhost:3001 and you'll see:

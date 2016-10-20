@@ -39,6 +39,7 @@ zammad@shell> vi config/database.yml
 
 ```bash
 zammad@shell> export RAILS_ENV=production
+zammad@shell> export RAILS_SERVE_STATIC_FILES=true # only if you use no http reverse proxy
 zammad@shell> rake db:create
 zammad@shell> rake db:migrate
 zammad@shell> rake db:seed

@@ -3,7 +3,7 @@ Title: Ticket
 
 Text:
 
-_List_
+### List
 
 Required permission:
 
@@ -46,7 +46,7 @@ Status: 200 Ok
 
 ```
 
-_Search_
+### Search
 
 Required permission:
 
@@ -88,7 +88,7 @@ Status: 200 Ok
 ]
 ```
 
-_Show_
+### Show
 
 Required permission:
 
@@ -118,7 +118,7 @@ Status: 200 Ok
 }
 ```
 
-_Create_
+### Create
 
 Required permission:
 
@@ -161,6 +161,8 @@ Status: 201 Created
 }
 ```
 
+### Update
+
 Required permission:
 
 * ticket.agent (access to all ticket in allocated groups)
@@ -202,7 +204,7 @@ Status: 200 Ok
 }
 ```
 
-_Delete_
+### Delete
 
 Required permission:
 

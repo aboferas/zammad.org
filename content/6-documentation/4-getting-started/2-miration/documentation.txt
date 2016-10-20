@@ -1,0 +1,16 @@
+Title: Migration from other ticket systems to Zammad
+----
+
+Text:
+
+After installing Zammad, open http://localhost:3000 with your browser and follow the installation wizard.
+From there you're able to start migration from OTRS ande Zendesk.
+
+If you miss this at the beginning you have to use the command line at the moment.
+
+Basically you need to do the following things:
+
+* 
+ 
+ 
+ 

@@ -1,4 +1,4 @@
-Title: REST API
+Title: Introduction
 ----
 
 Text:
@@ -7,7 +7,6 @@ Zammad is a web based open source helpdesk/ticket system with many features
 to manage customer communication via several channels like telephone, facebook,
 twitter, chat and e-mails.
 
-## Introduction
 This chapter describes the Zammad API v1.
 
 ## The API
@@ -16,13 +15,13 @@ The API is a REST/JSON API. Endpoints are documented with the HTTP method for th
 
 Example:
 
-```
+```bash
 GET /api/v1/users
 ```
 
 The full url looks like:
 
-```
+```bash
 https://your_zammad/api/v1/users
 ```
 
@@ -30,7 +29,7 @@ Curly braces, {}, indicate values you have to supply for the url.
 
 Example:
 
-```
+```bash
 GET  /api/v1/users/{id}
 ```
 
@@ -44,7 +43,7 @@ The username/password provided as http header in the http call. The Zammad admin
 
 Example:
 
-```
+```bash
 curl -u {username}:{password} https://your_zammad/api/v1/users
 ```
 
@@ -54,7 +53,7 @@ The access token provided as http header in the http call. Each user need to cre
 
 Example:
 
-```
+```bash
 curl -H "Authorization: Token token={your_token}" https://your_zammad/api/v1/users
 ```
 
@@ -65,7 +64,7 @@ The Zammad API supports OAuth2 authorization. In order to create OAuth2 tokens b
 
 Example:
 
-```
+```bash
 curl -H "Authorization: Bearer {your_token}" https://your_zammad/api/v1/users
 ```
 
@@ -75,7 +74,7 @@ The Zammad API is a JSON API, so you need to set a "Content-Type: application/js
 
 Example:
 
-```
+```bash
 POST /api/v1/users/{id} HTTP/1.1
 Content-Type: application/json
 

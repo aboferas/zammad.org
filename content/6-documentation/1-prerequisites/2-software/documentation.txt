@@ -3,8 +3,17 @@ Title: Software
 
 Text:
 
-Sorry, this still needs to be added :-(
+1\. Database Server
+* MySQL 5.6+
+* MariaDB 5.3+
+* Postgres 9.1+
 
-Do you want to contribute to the Zammad documentation?
+2\. Ruby 2.3.1
 
-Open a new GitHub pull request @ https://github.com/zammad/zammad.org with your changes.
+3\. Rails 4.2.4
+
+4\. Webserver as Proxy (optional)
+* Nginx
+* Apache
+
+5\. Elasticsearch 2.4 as search backend (optional)

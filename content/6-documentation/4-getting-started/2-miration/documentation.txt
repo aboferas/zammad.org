@@ -10,7 +10,16 @@ See the Video @ http://days.zammad.org/features/migrator
 
 If you miss this at the beginning you have to use the command line at the moment.
 
-* 
- 
- 
- 
+* Stop all Zammad processes and switch Zammad to import mode (no events are fired - e. g. notifications, sending emails, ...)
+* rails c
+* Setting.set('import_otrs_endpoint', 'http://xxx/otrs/public.pl?Action=ZammadMigrator')
+* Setting.set('import_otrs_endpoint_key', 'xxx')
+* Setting.set('import_mode', true)
+* Import::OTRS.start
+
+After importing, switch Zammad back to non import mode
+
+* Setting.set('import_mode', false)
+
+Done.
+

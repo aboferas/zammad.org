@@ -88,3 +88,92 @@ Content-Type: application/json
 
 ## Response Format
 If an response is successful, a HTTP status codes in the 200 or 300 range is returned. If a item got created or updated the all new attributes will be returned (also server site generated attributes like created_at and updated_at).
+
+Example:
+
+```bash
+Status: 201 Created
+Content-Type:application/json; charset=utf-8
+
+{
+  "id": 123,
+  "name":"some name",
+  "organization_id": 123,
+  "note":"some note",
+  "updated_at": "2016-08-16T07:55:42.119Z",
+  "created_at": "2016-08-16T07:55:42.119Z"
+}
+
+```
+
+## Response Format (expanded)
+
+If you want to get reference lookup in response (e. g. the organization attribute will be added at response), you just need to add a ```expand=true``` to the request url.
+
+Example:
+
+```bash
+GET /api/v1/users/{id}?expand=true HTTP/1.1
+```
+
+will return a record link this:
+
+```bash
+Status: 200 Ok
+Content-Type:application/json; charset=utf-8
+
+{
+  "id": 123,
+  "name":"some name",
+  "organization_id": 123,
+  "organization": "Some Organization Name",
+  "note":"some note",
+  "updated_at": "2016-08-16T07:55:42.119Z",
+  "created_at": "2016-08-16T07:55:42.119Z"
+}
+
+```
+
+## Pagination
+All resources support a pagination functionality. You can do like this:
+
+
+```bash
+GET /api/v1/users?expand=true&page=1,per_page=5 HTTP/1.1
+```
+
+will return 5 records beginning with first record of all:
+
+```bash
+Status: 200 Ok
+Content-Type:application/json; charset=utf-8
+
+[
+  {
+    "id": 1,
+    "name":"some name 1",
+    "organization_id": 123,
+    "organization": "Some Organization Name",
+    "note":"some note",
+    "updated_at": "2016-08-16T07:55:42.119Z",
+    "created_at": "2016-08-16T07:55:42.119Z"
+  },
+  {
+    "id": 2,
+    "name":"some name 2",
+    "organization_id": 345,
+    "organization": "Some Other Organization Name",
+    "note":"some note",
+    "updated_at": "2016-08-17T07:55:42.221Z",
+    "created_at": "2016-08-16T09:112:42.221Z"
+  },
+  ...
+}
+
+```
+
+
+## API clients
+
+* Ruby Client - https://github.com/zammad/zammad_api_client_ruby
+* PHP Client - https://github.com/zammad/zammad-api-client-php

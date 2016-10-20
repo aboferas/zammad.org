@@ -6,9 +6,9 @@ Text:
 After installing Zammad, open http://localhost:3000 with your browser and follow the installation wizard.
 From there you're able to start migration from OTRS ande Zendesk.
 
-If you miss this at the beginning you have to use the command line at the moment.
+See the Video @ http://days.zammad.org/features/migrator
 
-Basically you need to do the following things:
+If you miss this at the beginning you have to use the command line at the moment.
 
 * 
  

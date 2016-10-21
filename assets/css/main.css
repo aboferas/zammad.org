@@ -500,11 +500,14 @@ article pre[class*="language-"] {
           justify-content: center;
 }
 
+.wrapper--sidebar article {
+  -webkit-flex: 1;
+          flex: 1;
+}
+
 .sidebar {
   float: left;
   min-width: 15em;
-  -webkit-flex: 1;
-          flex: 1;
 }
 
 .sidebar nav {

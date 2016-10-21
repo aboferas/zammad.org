@@ -24,21 +24,21 @@ Status: 200 Ok
 [
   {
     "id": 123,
-    "title":"Help me!",
-    "state_id":1,
-    "priority_id":2,
+    "title": "Help me!",
+    "state_id": 1,
+    "priority_id": 2,
     ...
-    "note":"some note",
+    "note": "some note",
     "updated_at": "2016-08-16T07:55:42.119Z",
     "created_at": "2016-08-16T07:55:42.119Z"
   },
   {
     "id": 124,
-    "title":"Just want to ask for support",
-    "state_id":2,
-    "priority_id":2,
+    "title": "Just want to ask for support",
+    "state_id": 2,
+    "priority_id": 2,
     ...
-    "note":"some note",
+    "note": "some note",
     "updated_at": "2016-08-16T07:55:42.119Z",
     "created_at": "2016-08-16T07:55:42.119Z"
   },
@@ -67,21 +67,21 @@ Status: 200 Ok
 [
   {
     "id": 123,
-    "title":"Help me!",
-    "state_id":1,
-    "priority_id":2,
+    "title": "Help me!",
+    "state_id": 1,
+    "priority_id": 2,
     ...
-    "note":"some note",
+    "note": "some note",
     "updated_at": "2016-08-16T07:55:42.119Z",
     "created_at": "2016-08-16T07:55:42.119Z"
   },
   {
     "id": 124,
-    "title":"Just want to ask for support",
-    "state_id":2,
-    "priority_id":2,
+    "title": "Just want to ask for support",
+    "state_id": 2,
+    "priority_id": 2,
     ...
-    "note":"some note",
+    "note": "some note",
     "updated_at": "2016-08-16T07:55:42.119Z",
     "created_at": "2016-08-16T07:55:42.119Z"
   },
@@ -108,11 +108,11 @@ Status: 200 Ok
 
 {
   "id": 123,
-  "title":"Help me!",
-  "state_id":1,
-  "priority_id":2,
+  "title": "Help me!",
+  "state_id": 1,
+  "priority_id": 2,
   ...
-  "note":"some note",
+  "note": "some note",
   "updated_at": "2016-08-16T07:55:42.119Z",
   "created_at": "2016-08-16T07:55:42.119Z"
 }
@@ -131,15 +131,15 @@ Request:
 POST /api/v1/tickets
 
 {
-  "title":"Help me!",
-  "state_id":1,
-  "priority_id":2,
+  "title": "Help me!",
+  "state_id": 1,
+  "priority_id": 2,
   "article": {
     "subject": "some subject",
     "body": "some message"
   },
   ...
-  "note":"some note",
+  "note": "some note",
 }
 
 ```
@@ -151,11 +151,11 @@ Status: 201 Created
 
 {
   "id": 123,
-  "title":"Help me!",
-  "state_id":1,
-  "priority_id":2,
+  "title": "Help me!",
+  "state_id": 1,
+  "priority_id": 2,
   ...
-  "note":"some note",
+  "note": "some note",
   "updated_at": "2016-08-16T07:55:42.119Z",
   "created_at": "2016-08-16T07:55:42.119Z"
 }
@@ -175,9 +175,9 @@ PUT /api/v1/tickets/{id}
 
 {
   "id": 123,
-  "title":"Help me!",
-  "state_id":1,
-  "priority_id":2,
+  "title": "Help me!",
+  "state_id": 1,
+  "priority_id": 2,
   "article": {
     "subject": "some subject of update",
     "body": "some message of update"
@@ -194,11 +194,11 @@ Status: 200 Ok
 
 {
   "id": 123,
-  "title":"Help me!",
-  "state_id":1,
-  "priority_id":2,
+  "title": "Help me!",
+  "state_id": 1,
+  "priority_id": 2,
   ...
-  "note":"some note",
+  "note": "some note",
   "updated_at": "2016-08-16T07:55:42.119Z",
   "created_at": "2016-08-16T07:55:42.119Z"
 }

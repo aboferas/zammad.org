@@ -34,12 +34,12 @@ GET  /api/v1/users/{id}
 ```
 
 
-## Authenication
+## Authentication
 Zammad supports 3 different authentication methods for the Zammad API.
 
 
 ### HTTP Basic Authentication (username/password)
-The username/password provided as http header in the http call. The Zammad admin can enable/disable his authentication method in the admin interface. Read more about HTTP Basic Autentication [here](https://en.wikipedia.org/wiki/Basic_access_authentication).
+The username/password provided as http header in the http call. The Zammad admin can enable/disable his authentication method in the admin interface. Read more about HTTP Basic Authentication [here](https://en.wikipedia.org/wiki/Basic_access_authentication).
 
 Example:
 
@@ -60,7 +60,7 @@ curl -H "Authorization: Token token={your_token}" https://your_zammad/api/v1/use
 
 ### OAuth2 (Token Access)
 
-The Zammad API supports OAuth2 authorization. In order to create OAuth2 tokens by an external application, the Zammad needs to create an Application in admin interface first. In your requests, specify the access token in an authorization header as follows:
+The Zammad API supports OAuth2 authorization. In order to create OAuth2 tokens by an external application, the Zammad user needs to create an Application in the admin interface first. In your requests, specify the access token in an authorization header as follows:
 
 Example:
 
@@ -87,7 +87,7 @@ Content-Type: application/json
 ```
 
 ## Response Format
-If an response is successful, a HTTP status codes in the 200 or 300 range is returned. If a item got created or updated the all new attributes will be returned (also server site generated attributes like created_at and updated_at).
+If an response is successful, an HTTP status codes in the 200 or 300 range is returned. If an item got created or updated, all new attributes will be returned (also server site generated attributes like created_at and updated_at).
 
 Example:
 

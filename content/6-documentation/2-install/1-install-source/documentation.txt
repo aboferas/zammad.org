@@ -5,10 +5,10 @@ Text:
 
 1\. Install Zammad on your system
 
-You can directly download Zammad from http://ftp.zammad.com/ or use the direct url to get the latest stable release via http://ftp.zammad.com/zammad-latest.tar.gz
+You can directly download Zammad from https://ftp.zammad.com/ or use the direct url to get the latest stable release via https://ftp.zammad.com/zammad-latest.tar.gz
 
 ```bash
-root@shell> wget http://ftp.zammad.com/zammad-latest.tar.gz
+root@shell> wget https://ftp.zammad.com/zammad-latest.tar.gz
 root@shell> cd /opt/
 root@shell> tar -xzf zammad-latest.tar.gz
 root@shell> useradd zammad

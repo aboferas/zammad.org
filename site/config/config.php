@@ -43,9 +43,9 @@ c::set('routes', array(
     }
   ),
   array(
-    'pattern' => 'forum',
+    'pattern' => 'contribute',
     'action' => function() {
-      return go('//forum.zammad.org');
+      return go('https://zammad.org/participate');
     }
   )
 ));

@@ -14,4 +14,4 @@ Keywords: Zammad, Help Desk, helpdesk, Features, Servicedesk, Ticket System, Sup
 
 ----
 
-Copyright: © (date: Year) (link: http://zammad.com text: Zammad GmbH)
+Copyright: © (date: Year) (link: https://zammad.com text: Zammad GmbH)

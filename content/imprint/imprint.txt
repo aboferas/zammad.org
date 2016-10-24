@@ -11,7 +11,7 @@ Squint your eyes and discover something.
 Text:
 
 _Zammad.org is a service provided by_
-##(link: http://www.zammad.com/ text: Zammad GmbH)
+##(link: https://www.zammad.com/ text: Zammad GmbH)
 _Berlin, Germany_
 
 _Post Address_

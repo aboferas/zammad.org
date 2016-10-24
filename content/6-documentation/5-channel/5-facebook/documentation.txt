@@ -23,8 +23,13 @@ You need to do the following:
 
 Finally "Save Changes".
 
+In order to read and write on facebook pages we need to get "publish_pages" and "manage_pages" permissions.
 
-Go to "App Secret" -> "Show" and note the "App ID" and "App Secret".
+Go to "App Review" and request them.
+
+(image: developers.facebook.com-review-permission.png caption: "publish_pages" and "manage_pages" permissions)
+
+Finally go to Settings -> Basic -> "App Secret" -> "Show" and note the "App ID" and "App Secret".
 
 
 ### Configure Zammad as Facebook app

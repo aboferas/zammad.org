@@ -2,9 +2,9 @@
 
 If you want to contribute to zammad.org, just create pull requests.
 
-## Documention
+## Documentation
 
-Documentaion can be found under "content/6-documentation/".
+Documentation can be found under "content/6-documentation/".
 
 
 

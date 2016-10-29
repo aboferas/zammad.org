@@ -1,0 +1,18 @@
+Title: Pipe (Fetchmail)
+----
+
+Text:
+
+Maybe you want to add mails via Fetchmail & Procmail.
+
+To get this work you need to pipe your mail to rails.
+
+On the Commandline
+==================
+
+cat /path/to/mail.eml | rails r 'Channel::Driver::MailStdin.new'
+
+
+Procmail
+========
+

@@ -16,7 +16,10 @@ sudo apt-get install zammad
 ```
 
 ### Start Zammad services:
+
+```bash
 sudo systemctl zammad start
+```
 
 You can manage the Zammad services manually:
 ```bash

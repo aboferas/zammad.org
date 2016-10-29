@@ -23,7 +23,7 @@ After the app has been created, update the application icon and organization att
 
 (image: apps.twitter.com_set_permissions.png caption: set permissions to receive & send direct messages)
 
-Next we need to set read, write and access direct messages permissions for the app.
+Next we need to set _read, write and access direct messages permissions_ for the app.
 
 (image: apps.twitter.com_get_credentials.png caption: click on Keys & Access Token, note them)
 

@@ -8,8 +8,7 @@ Maybe you want to add mails via Fetchmail & Procmail.
 To get this work you need to pipe your mail to rails.
 
 
-On the Commandline
-==================
+# On the Commandline
 
 ```bash
 su - zammad
@@ -18,16 +17,17 @@ cat test/fixtures/mail1.box | rails r 'Channel::Driver::MailStdin.new(trusted: t
 ```
 
 
-Fetchmail
-=========
+# Fetchmail
+## Create .ftechmail.rc
 
 ```bash
 su - zammad
 cd ~
 touch .fetchmailrc
 ```
+## vi .fetchmailrc
 
-```
+```bash
 #
 # zammad fetchmail config
 #
@@ -35,17 +35,17 @@ poll your.mail.server protocol POP3 user USERNAME pass PASSWORD mda /usr/bin/pro
 ```
 
 
-Procmail
-========
-
+# Procmail
+## Create .procmailrc
 
 ```bash
 su - zammad
 cd ~
 touch .procmailrc
 ```
+## vi .procmailrc
 
-```
+```bash
 # --
 # Pipe all emails into Zammad
 # --
@@ -55,8 +55,7 @@ PATH=/opt/zammad/bin:/opt/zammad/vendor/bundle/bin:/sbin:/bin:/usr/sbin:/usr/bin
 ```
 
 
-Supported mail header for presorting
-====================================
+# Supported mail header for presorting
 
 ## Ticket-Attributes
 
@@ -97,6 +96,7 @@ ticket attributes on follow up, use "X-Zammad-Ticket-FollowUp-Attribute: some va
 
 - Set customer via explicit login.
 - Example: X-Zammad-Customer-Login: [login]
+
 
 
 ## Article-Attributes

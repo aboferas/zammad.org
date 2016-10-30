@@ -1,4 +1,4 @@
-Title: Installation on Mac OS 10.8 for development
+Title: Install from source (Mac OS 10.8)
 ----
 
 Text:

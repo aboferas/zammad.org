@@ -1,4 +1,4 @@
-Title: Install from source
+Title: Install from source (generic)
 ----
 
 Text:

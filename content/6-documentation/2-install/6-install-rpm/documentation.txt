@@ -6,7 +6,11 @@ Text:
 Currently we support RHEL6/CentOS6 and RHEL7/CentOS7.
 
 
-### Add Zammad RPM Repo and install RPM
+### Add Zammad & epel-release RPM repos and install RPM
+
+```bash
+sudo yum install epel-release
+```
 
 CentOS7
 

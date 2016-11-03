@@ -30,7 +30,6 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 c::set('debug', false);
-c::set('ssl', true);
 c::set('timezone', 'Europe/Berlin');
 c::set('url', 'https://zammad.org');
 

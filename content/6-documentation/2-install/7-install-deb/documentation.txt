@@ -11,7 +11,7 @@ Currently we support Debian 8 & Ubuntu 16.04
 ## Debian
 ```bash
 wget -qO - https://deb.packager.io/key | sudo apt-key add -
-echo "deb https://deb.packager.io/gh/zammad/zammad stable develop" | sudo tee /etc/apt/sources.list.d/zammad.list
+echo "deb https://deb.packager.io/gh/zammad/zammad jessie develop" | sudo tee /etc/apt/sources.list.d/zammad.list
 sudo apt-get update
 sudo apt-get install zammad
 ```

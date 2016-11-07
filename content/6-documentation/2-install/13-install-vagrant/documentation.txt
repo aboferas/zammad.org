@@ -11,13 +11,13 @@ First be sure that a Vagrant provider is installed. You can use "Virtual Box" fr
 ### Clone the Vagrant file
 
 ```bash
-git clone git@github.com:zammad/vagrant.git
+git clone git@github.com:zammad/zammad-vagrant.git
 ```
 
 ### Run Vagrant
 
 ```bash
-cd vagrant.git
+cd zammad-vagrant
 vagrant up
 ```
 

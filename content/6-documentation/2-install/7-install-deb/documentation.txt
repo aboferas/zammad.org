@@ -8,18 +8,23 @@ Currently we support Debian 8 & Ubuntu 16.04
 
 # Add Zammad DEB Repo and install
 
-## Debian
 ```bash
 wget -qO - https://deb.packager.io/key | sudo apt-key add -
+```
+
+## Debian
+
+```bash
 echo "deb https://deb.packager.io/gh/zammad/zammad jessie develop" | sudo tee /etc/apt/sources.list.d/zammad.list
-sudo apt-get update
-sudo apt-get install zammad
 ```
 
 ## Ubuntu
+
 ```bash
-wget -qO - https://deb.packager.io/key | sudo apt-key add -
 echo "deb https://deb.packager.io/gh/zammad/zammad xenial develop" | sudo tee /etc/apt/sources.list.d/zammad.list
+```
+
+```bash
 sudo apt-get update
 sudo apt-get install zammad
 ```

@@ -6,27 +6,33 @@ Text:
 Currently we support RHEL6/CentOS6 and RHEL7/CentOS7.
 
 
-### Add Zammad RPM Repo and install RPM
+### Add Zammad & epel-release RPM repos and install RPM
+
+```bash
+sudo yum install epel-release
+sudo rpm --import https://rpm.packager.io/key
+```
 
 CentOS7
 
 ```bash
-sudo rpm --import https://rpm.packager.io/key
+
 echo "[zammad]
 name=Repository for zammad/zammad application.
 baseurl=https://rpm.packager.io/gh/zammad/zammad/centos7/package-1.0
 enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
-sudo yum install zammad
 ```
 
 CentOS6
 
 ```bash
-sudo rpm --import https://rpm.packager.io/key
 echo "[zammad]
 name=Repository for zammad/zammad application.
 baseurl=https://rpm.packager.io/gh/zammad/zammad/centos6/package-1.0
 enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
+```
+
+```bash
 sudo yum install zammad
 ```
 

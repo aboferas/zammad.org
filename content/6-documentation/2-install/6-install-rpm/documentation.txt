@@ -43,8 +43,8 @@ The example uses PostgreSQL (we also support MySQL/MariaDB).
 Get a fresh database server up and running:
 ```bash
 sudo postgresql-setup initdb
-systemctl start postgresql.service
-systemctl enable postgresql.service
+sudo systemctl start postgresql.service
+sudo systemctl enable postgresql.service
 sudo -u postgres createuser --interactive
 sudo -u postgres createuser -d zammad
 ```
@@ -65,9 +65,9 @@ production:
 ### Initialize your database
 
 ```bash
-shell> sudo - zammad run rake db:create
-shell> sudo - zammad run rake db:migrate
-shell> sudo - zammad run rake db:seed
+shell> sudo zammad run rake db:create
+shell> sudo zammad run rake db:migrate
+shell> sudo zammad run rake db:seed
 ```
 
 ### Start Zammad services:
@@ -79,7 +79,7 @@ shell> sudo zammad scale web=1 worker=1 websocket=1
 
 Start Zammad services at boot:
 ```bash
-shell> chkconfig zammad on
+shell> sudo chkconfig zammad on
 ```
 
 You can manage the Zammad services manually:
@@ -110,3 +110,47 @@ shell> sudo service zammad-websocket restart
 
 ### Go to http://localhost:3000 and you'll see:
   "Welcome to Zammad!", there you need to create your admin user and you need to invite other agents.
+
+
+### Configure nginx Reverse Proxy
+
+First install nginx:
+```bash
+shell> sudo yum install nginx
+```
+
+Configure nginx
+```bash
+shell> sudo vi /etc/nginx/nginx.conf
+```
+
+Insert the following into the location part, which should be empty by default and uncomment the root directive:
+```bash
+#root         /usr/share/nginx/html;
+
+location / {
+  proxy_read_timeout      300;
+  proxy_connect_timeout   300;
+  proxy_redirect          off;
+
+  proxy_http_version 1.1;
+  
+  proxy_set_header    Host                $http_host;
+  proxy_set_header    X-Real-IP           $remote_addr;
+  proxy_set_header    X-Forwarded-For     $proxy_add_x_forwarded_for;
+  proxy_set_header    X-Forwarded-Proto   $scheme;
+  
+  proxy_pass http://localhost:3000;
+}
+```
+
+In case you have SELinux enabled you have to enable httpd network connect
+```bash
+shell> sudo setsebool httpd_can_network_connect on -P
+```
+
+Start and enable nginx
+```bash
+shell> sudo systemctl start nginx
+shell> sudo systemctl enable nginx
+```

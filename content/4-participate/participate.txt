@@ -53,7 +53,7 @@ Text:
 
 ## Do you want to contribute to the Zammad documentation?
 
-* Open a new (link: https://github.com/zammad/zammad.org/ text: GitHub) pull request with the changes.
+* Open a new (link: https://github.com/zammad/zammad-documentation/ text: GitHub) pull request with the changes.
 
 
 ****

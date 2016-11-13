@@ -18,19 +18,31 @@ Downloads:
   intro: "Zammad as"
   platform: "Source"
   version: "V 1.0.0"
-  download: /documentation/install/install-source
+  download: https://docs.zammad.org/en/latest/install-source.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "RHEL/CentOS"
   version: "V 1.0.0"
-  download: /documentation/install/install-rpm
+  download: https://docs.zammad.org/en/latest/install-rpm.html
+  downloadText: Install
+-
+  intro: "Zammad for"
+  platform: "Debian/Ubuntu"
+  version: "V 1.0.0"
+  download: https://docs.zammad.org/en/latest/install-deb.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Docker"
   version: "V 1.0.0"
-  download: /documentation/install/install-docker
+  download: https://docs.zammad.org/en/latest/install-docker.html
+  downloadText: Install
+-
+  intro: "Zammad for"
+  platform: "Vagrant"
+  version: "V 1.0.0"
+  download: https://docs.zammad.org/en/latest/install-vagrant.html
   downloadText: Install
 ----
 Hint: (image: zammad-question.svg) Looking for OS X or Windows? We don't have one. Maybe you should consider visiting our sister site (link: https://zammad.com text: zammad.com)

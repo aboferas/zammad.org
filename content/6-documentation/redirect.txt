@@ -1,4 +1,4 @@
 Title: Documentation
 ----
-Link: http://zammad.readthedocs.io
+Link: https://docs.zammad.org
 ----

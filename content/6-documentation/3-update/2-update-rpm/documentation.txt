@@ -1,0 +1,44 @@
+Title: Update from RPM
+----
+
+Text:
+
+Note: Please backup your Zammad instance before update!
+
+
+During development we reorganized our repo structure. Please update your /etc/yum.repos.d/zammad.repo with the
+correct baseurl (see below).
+
+1\. Verify repo baseurl
+
+CentOS7
+
+```bash
+
+echo "[zammad]
+name=Repository for zammad/zammad application.
+baseurl=https://rpm.packager.io/gh/zammad/zammad/centos7/stable
+enabled=1" | sudo tee /etc/yum.repos.d/zammad.repo
+```
+
+2\. Stop Zammad
+
+```bash
+shell> sudo service zammad stop
+```
+
+3\. Update Zammad
+
+```bash
+sudo yum update zammad
+```
+
+Note: The package will automatically execute maintanance task like database changes.
+
+4\. Start Zammad
+
+```bash
+shell> sudo service zammad stop
+```
+
+5\. Go and login to Zammad

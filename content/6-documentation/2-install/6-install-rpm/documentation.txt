@@ -16,7 +16,6 @@ sudo rpm --import https://rpm.packager.io/key
 CentOS7
 
 ```bash
-
 echo "[zammad]
 name=Repository for zammad/zammad application.
 baseurl=https://rpm.packager.io/gh/zammad/zammad/centos7/stable

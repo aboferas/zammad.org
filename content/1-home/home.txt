@@ -17,25 +17,25 @@ Downloads:
 -
   intro: "Zammad as"
   platform: "Source"
-  version: "V 1.1.0"
+  version: "V 1.1.1"
   download: /documentation/install/install-source
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Debian/Ubuntu"
-  version: "V 1.1.0"
+  version: "V 1.1.1"
   download: /documentation/install/install-deb
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "RHEL/CentOS"
-  version: "V 1.1.0"
+  version: "V 1.1.1"
   download: /documentation/install/install-rpm
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Docker"
-  version: "V 1.1.0"
+  version: "V 1.1.1"
   download: /documentation/install/install-docker
   downloadText: Install
 ----

@@ -1,0 +1,4 @@
+Title: Documentation
+----
+Link: https://docs.zammad.org
+----

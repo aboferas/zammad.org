@@ -35,14 +35,6 @@ c::set('url', 'https://zammad.org');
 
 c::set('routes', array(
   array(
-    'pattern' => 'documentation',
-    'action'  => function() {
-      $first_category = page('documentation')->children()->visible()->first();
-      $first_entry = $first_category->children()->visible()->first();
-      return go($first_entry->url());
-    }
-  ),
-  array(
     'pattern' => 'contribute',
     'action' => function() {
       return go('https://zammad.org/participate');

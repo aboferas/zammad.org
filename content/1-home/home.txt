@@ -28,15 +28,21 @@ Downloads:
   downloadText: Install
 -
   intro: "Zammad for"
-  platform: "Docker"
+  platform: "Debian"
   version: "V 1.1.1"
-  download: https://docs.zammad.org/en/latest/install-deb.html
+  download: https://docs.zammad.org/en/latest/install-debian.html
+  downloadText: Install
+-
+  intro: "Zammad for"
+  platform: "Ubuntu"
+  version: "V 1.1.1"
+  download: https://docs.zammad.org/en/latest/install-ubuntu.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Docker"
   version: "V 1.1.1"
-  download: https://docs.zammad.org/en/latest/install-docker.html
+  download: https://docs.zammad.org/en/latest/contributing-install-docker.html
   downloadText: Install
 ----
 Hint: (image: zammad-question.svg) Looking for OS X or Windows? We don't have one. Maybe you should consider visiting our sister site (link: https://zammad.com text: zammad.com)

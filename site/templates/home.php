@@ -17,7 +17,7 @@
 
       <div class="columns columns--flexible">
       <? foreach($page->downloads()->yaml() as $download): ?>
-        <div class="column" style="width: 25%;">
+        <div class="column" style="width: 20%;">
           <div class="label"><?= $download['intro'] ?></div>
           <div class="os"><?= $download['platform'] ?></div>
           <div class="version"><?= kirbytext($download['version']) ?></div>

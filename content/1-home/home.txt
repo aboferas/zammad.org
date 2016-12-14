@@ -22,7 +22,7 @@ Downloads:
   downloadText: Install
 -
   intro: "Zammad for"
-  platform: "RHEL/CentOS"
+  platform: "CentOS"
   version: "V 1.1.1"
   download: https://docs.zammad.org/en/latest/install-rpm.html
   downloadText: Install

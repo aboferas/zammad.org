@@ -17,31 +17,31 @@ Downloads:
 -
   intro: "Zammad as"
   platform: "Source"
-  version: "V 1.1.1"
+  version: "V 1.2.0"
   download: https://docs.zammad.org/en/latest/install-source.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "CentOS"
-  version: "V 1.1.1"
+  version: "V 1.2.0"
   download: https://docs.zammad.org/en/latest/install-rpm.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Debian"
-  version: "V 1.1.1"
+  version: "V 1.2.0"
   download: https://docs.zammad.org/en/latest/install-debian.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Ubuntu"
-  version: "V 1.1.1"
+  version: "V 1.2.0"
   download: https://docs.zammad.org/en/latest/install-ubuntu.html
   downloadText: Install
 -
   intro: "Zammad for"
   platform: "Docker"
-  version: "V 1.1.1"
+  version: "V 1.2.0"
   download: https://docs.zammad.org/en/latest/contributing-install-docker.html
   downloadText: Install
 ----

@@ -4,8 +4,8 @@
   <div class="wrapper">
     <div class="header">
 
-      <!--<a class="subtitle" href="https://zammad.com/news" style="color: hsl(146,51%,50%); text-decoration: underline;">Note: Zammad 1.1 has been released (read more)</a>
-      <br>-->
+      <a class="subtitle" href="https://zammad.com/news" style="color: hsl(146,51%,50%); text-decoration: underline;">Note: Zammad 1.2 has been released (read more)</a>
+      <br>
 
       <h1><?= $page->header() ?></h1>
       <div class="subtitle"><?= $page->subtitle()->kirbytext() ?></div>
